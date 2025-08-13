@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0HC-dz-LbK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"إصلاح تكييف\"; ObjectID = \"0HC-dz-LbK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "إصلاح تكييف"
+          }
+        }
+      }
+    },
+    "8Tf-ap-PZh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"النوع\"; ObjectID = \"8Tf-ap-PZh\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النوع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جۆر"
+          }
+        }
+      }
+    },
+    "coc-cf-Kod.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تاريخ الطلب\"; ObjectID = \"coc-cf-Kod\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەرواری داواکاری"
+          }
+        }
+      }
+    },
+    "df2-Ay-mjW.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Cancel Request\"; ObjectID = \"df2-Ay-mjW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الغاء الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵوەشاندنەوەی داواکاری"
+          }
+        }
+      }
+    },
+    "df2-Ay-mjW.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"df2-Ay-mjW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "JsE-4c-IjA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الطلب\"; ObjectID = \"JsE-4c-IjA\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری"
+          }
+        }
+      }
+    },
+    "OJE-57-xGM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"25 سبتمبر 2024\"; ObjectID = \"OJE-57-xGM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "25 سبتمبر 2024"
+          }
+        }
+      }
+    },
+    "rYL-KI-h3Z.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تكييف\"; ObjectID = \"rYL-KI-h3Z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "تكييف"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

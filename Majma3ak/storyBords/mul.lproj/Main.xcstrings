@@ -1,0 +1,5222 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0ha-4l-ZJc.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"I Agree\"; ObjectID = \"0ha-4l-ZJc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اوافق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I Agree"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ڕازیم"
+          }
+        }
+      }
+    },
+    "0ha-4l-ZJc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"0ha-4l-ZJc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "0Lz-7R-lIo.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Select complex\"; ObjectID = \"0Lz-7R-lIo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر المجمع السكني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select complex"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هه‌لبژاردنی كۆمپلەکس"
+          }
+        }
+      }
+    },
+    "0N5-H1-g3o.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Payments\"; ObjectID = \"0N5-H1-g3o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدفعات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payments"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پارەدانەکان"
+          }
+        }
+      }
+    },
+    "0pF-Y1-Lzt.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"نوع المشكلة\"; ObjectID = \"0pF-Y1-Lzt\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع المشكلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type of problem"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جۆری کێشەکە"
+          }
+        }
+      }
+    },
+    "0V4-OM-RjB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total Due\"; ObjectID = \"0V4-OM-RjB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمالي المستحق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total Due"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کۆی قەرز"
+          }
+        }
+      }
+    },
+    "1e6-Zk-oLX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"محمد علي حسن\"; ObjectID = \"1e6-Zk-oLX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "محمد علي حسن"
+          }
+        }
+      }
+    },
+    "1Oh-px-ply.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Air Test Pagaination\"; ObjectID = \"1Oh-px-ply\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Air Test Pagaination"
+          }
+        }
+      }
+    },
+    "1Ow-Cn-vK9.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"1Ow-Cn-vK9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "1T1-aL-BhP.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الهاتف المحمول\"; ObjectID = \"1T1-aL-BhP\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "2Is-ox-cQ4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"اختر التاريخ\"; ObjectID = \"2Is-ox-cQ4\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر التاريخ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەروار هەڵبژێرە"
+          }
+        }
+      }
+    },
+    "2K1-59-QQa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Fix Tellll\"; ObjectID = \"2K1-59-QQa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Fix Tellll"
+          }
+        }
+      }
+    },
+    "2mA-Kk-aEf.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"نوع المشكلة\"; ObjectID = \"2mA-Kk-aEf\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع المشكلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type of problem"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جۆری کێشەکە"
+          }
+        }
+      }
+    },
+    "2us-3G-e1Q.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"معلومات الزائر\"; ObjectID = \"2us-3G-e1Q\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات الزائر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visitor information"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری سەردانکەران"
+          }
+        }
+      }
+    },
+    "3FO-P5-TxO.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"هل نسيت كلمة السر ؟\"; ObjectID = \"3FO-P5-TxO\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل نسيت كلمة السر ؟"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgot your password?"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پاسۆردەکەت لەبیر کردووە؟"
+          }
+        }
+      }
+    },
+    "3FO-P5-TxO.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"3FO-P5-TxO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "4qb-0f-EDw.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"تسجيل الدخول\"; ObjectID = \"4qb-0f-EDw\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چوونەژوورەوە"
+          }
+        }
+      }
+    },
+    "4qb-0f-EDw.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"4qb-0f-EDw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "5BN-oj-2lY.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"*******\"; ObjectID = \"5BN-oj-2lY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "*******"
+          }
+        }
+      }
+    },
+    "5J2-yB-ceF.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات التاريخ"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری بەروار"
+          }
+        }
+      }
+    },
+    "6cw-1B-LXR.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إرسال الطلب\"; ObjectID = \"6cw-1B-LXR\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە"
+          }
+        }
+      }
+    },
+    "6cw-1B-LXR.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"6cw-1B-LXR\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە"
+          }
+        }
+      }
+    },
+    "6TN-eN-mnN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"لديك حساب بالفعل ؟ \"; ObjectID = \"6TN-eN-mnN\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لديك حساب بالفعل ؟ "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already have an account?"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پێشتر ئەکاونتت هەیە؟"
+          }
+        }
+      }
+    },
+    "6W5-x4-9Pm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Enter your mobile number so that you can continue\"; ObjectID = \"6W5-x4-9Pm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل رقم موبايلك المحمول حتى تتمكن من الاستمرار"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter your mobile number so that you can continue"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایلەکەت داخڵ بکە بۆ ئەوەی بەردەوام بیت"
+          }
+        }
+      }
+    },
+    "7Om-hd-mWZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الهاتف المحمول\"; ObjectID = \"7Om-hd-mWZ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile phone number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "7X1-VC-ZMW.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان المبنى"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Building Address"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشانی بینا"
+          }
+        }
+      }
+    },
+    "8g4-OU-jk0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الاسم الكامل\"; ObjectID = \"8g4-OU-jk0\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "full name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی تەواو"
+          }
+        }
+      }
+    },
+    "8gf-8Y-6zn.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"8gf-8Y-6zn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "8Of-xU-GrL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"طلب صيانة جديد\"; ObjectID = \"8Of-xU-GrL\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلب صيانة جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New maintenance request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری نوێی چاککردنەوە"
+          }
+        }
+      }
+    },
+    "8ZL-qA-val.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"اللغة \"; ObjectID = \"8ZL-qA-val\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللغة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the language"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زمانەکە"
+          }
+        }
+      }
+    },
+    "9fR-gh-v6U.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"9fR-gh-v6U\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "9kr-eb-y1N.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"set a new password\"; ObjectID = \"9kr-eb-y1N\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعيين كلمة مرور جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "set a new password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی نوێ دابنێ"
+          }
+        }
+      }
+    },
+    "9m3-k2-MKG.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Air Test Pagaination\"; ObjectID = \"9m3-k2-MKG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Air Test Pagaination"
+          }
+        }
+      }
+    },
+    "9uX-ft-Aps.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"9uX-ft-Aps\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "9x3-q5-QhI.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"اكتب عنوان المشكلة باختصار\"; ObjectID = \"9x3-q5-QhI\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب عنوان المشكلة باختصار"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the title of the problem briefly."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشانی کێشەکە بە کورتی بنووسە."
+          }
+        }
+      }
+    },
+    "11sasa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد طلبات زيارة مضافة حالياً."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are no visit requests added currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی سەردان زیاد نەکراوە."
+          }
+        }
+      }
+    },
+    "18q-0w-csQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"وصف المشكلة\"; ObjectID = \"18q-0w-csQ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل إضافية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Additional details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری زیاتر"
+          }
+        }
+      }
+    },
+    "21d-yi-qIm.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قسم الصيانة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maintenance Department"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەشی چاککردنەوە"
+          }
+        }
+      }
+    },
+    "54z-5B-daf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"طلبات الزيارة المحجوزة مسبقًا\"; ObjectID = \"54z-5B-daf\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الزيارة المحجوزة مسبقًا"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pre-booked visit requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری سەردانی پێشوەختە حجزکراو"
+          }
+        }
+      }
+    },
+    "91sadsadsada" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد طلبات مضافة حالياً."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are no added requests currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی زیادە نییە."
+          }
+        }
+      }
+    },
+    "378-eq-lPa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"01098765432\"; ObjectID = \"378-eq-lPa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "01098765432"
+          }
+        }
+      }
+    },
+    "aBV-rx-ElE.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إنشاء حساب جديد\"; ObjectID = \"aBV-rx-ElE\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إنشاء حساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create an account"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ئەکاونتێکی نوێ دروست بکە"
+          }
+        }
+      }
+    },
+    "aBV-rx-ElE.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"aBV-rx-ElE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "aGW-dU-qgF.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Support Request\"; ObjectID = \"aGW-dU-qgF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلب دعم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Support Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکردنی پشتیوانی"
+          }
+        }
+      }
+    },
+    "aGW-dU-qgF.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"aGW-dU-qgF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "aHp-kD-0hv.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Logout\"; ObjectID = \"aHp-kD-0hv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الخروج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Logout"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چوونە دەرەوە"
+          }
+        }
+      }
+    },
+    "aHp-kD-0hv.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"aHp-kD-0hv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "aKg-Mi-SdW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"+964\"; ObjectID = \"aKg-Mi-SdW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+964"
+          }
+        }
+      }
+    },
+    "av2-zE-lrh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الهاتف أو البريد الإكتروني\"; ObjectID = \"av2-zE-lrh\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "awZ-cZ-jjb.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات الشقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apartment Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری شوقە"
+          }
+        }
+      }
+    },
+    "Az7-h4-59C.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Previous Requests\"; ObjectID = \"Az7-h4-59C\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطلبات السابقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاریە پێشووەکان"
+          }
+        }
+      }
+    },
+    "Az7-h4-59C.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"Az7-h4-59C\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "aZ8-ib-39n.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"aZ8-ib-39n\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "B3L-0P-DHc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Remaining Amount\"; ObjectID = \"B3L-0P-DHc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المبلغ المتبقي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Remaining Amount"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بڕی ماوە"
+          }
+        }
+      }
+    },
+    "b9h-gx-4Tr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"كلمة المرور\"; ObjectID = \"b9h-gx-4Tr\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نهێنوشە"
+          }
+        }
+      }
+    },
+    "bb2-sr-Egc.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Previous Requests\"; ObjectID = \"bb2-sr-Egc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطلبات السابقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاریە پێشووەکان"
+          }
+        }
+      }
+    },
+    "bb2-sr-Egc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"bb2-sr-Egc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Bcc-cE-IcH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Visitor information\"; ObjectID = \"Bcc-cE-IcH\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تواصل مع الدعم الفني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact technical support"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پەیوەندی بە پشتگیری تەکنیکی بکەن"
+          }
+        }
+      }
+    },
+    "bCf-oA-feS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Waiting\"; ObjectID = \"bCf-oA-feS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Waiting"
+          }
+        }
+      }
+    },
+    "Bch-dl-4DA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"123456\"; ObjectID = \"Bch-dl-4DA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "123456"
+          }
+        }
+      }
+    },
+    "BeJ-U0-d5f.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Maintenance requests\"; ObjectID = \"BeJ-U0-d5f\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الصيانة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Maintenance requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری چاککردنەوە"
+          }
+        }
+      }
+    },
+    "c3d-rk-ynw.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"نوع المشكلة\"; ObjectID = \"c3d-rk-ynw\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع المشكلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type of problem"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جۆری کێشەکە"
+          }
+        }
+      }
+    },
+    "CmY-vd-JFp.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"حدث الحقول التي تريد تغييرها\"; ObjectID = \"CmY-vd-JFp\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدث البيانات التي تريد تغييرها."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update the fields you want to change."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئەو بوارانەی کە دەتەوێت بیگۆڕیت نوێ بکەرەوە."
+          }
+        }
+      }
+    },
+    "CS5-et-HI2.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"مرحبًا بك في لوحة التحكم\"; ObjectID = \"CS5-et-HI2\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبًا بك في لوحة التحكم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the control panel"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەخێربێن بۆ پانێڵی کۆنترۆڵ"
+          }
+        }
+      }
+    },
+    "CvG-47-Cza.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Title\"; ObjectID = \"CvG-47-Cza\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشان"
+          }
+        }
+      }
+    },
+    "cxg-fb-lJi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"وصف المشكلة\"; ObjectID = \"cxg-fb-lJi\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل إضافية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Additional details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری زیاتر"
+          }
+        }
+      }
+    },
+    "cXT-6v-gHs.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تأكيد كلمة المرور\"; ObjectID = \"cXT-6v-gHs\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تأكيد كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی پشتڕاست بکەرەوە"
+          }
+        }
+      }
+    },
+    "CzT-br-RQl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"SVG, PNG, JPG or GIF (max. 800x400px)\"; ObjectID = \"CzT-br-RQl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "SVG, PNG, JPG or GIF (max. 800x400px)"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SVG، PNG، JPG یان GIF (زۆرترین 800x400px)"
+          }
+        }
+      }
+    },
+    "d8D-hZ-AQi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"SVG, PNG, JPG or GIF (max. 800x400px)\"; ObjectID = \"d8D-hZ-AQi\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "SVG, PNG, JPG or GIF (max. 800x400px)"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SVG، PNG، JPG یان GIF (زۆرترین 800x400px)"
+          }
+        }
+      }
+    },
+    "DA4-8b-dLl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"There are no added requests currently.\"; ObjectID = \"DA4-8b-dLl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد طلبات مضافة حاليًا"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "There are no added requests currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی زیادە نییە."
+          }
+        }
+      }
+    },
+    "Dgd-2G-5GJ.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطابق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Floor"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نهۆم"
+          }
+        }
+      }
+    },
+    "dOf-px-I6Q.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visit Time "
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کاتی سەردان"
+          }
+        }
+      }
+    },
+    "dPJ-p7-1YF.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"I agree to the terms and conditions\"; ObjectID = \"dPJ-p7-1YF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوافق على الشروط والأحكام."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I agree to the terms and conditions"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منیش بە مەرج و ڕێساکان ڕازیم"
+          }
+        }
+      }
+    },
+    "dPJ-p7-1YF.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"dPJ-p7-1YF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "dpY-3G-m9a.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \" \"; ObjectID = \"dpY-3G-m9a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " "
+          }
+        }
+      }
+    },
+    "DRI-QU-fJW.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشان"
+          }
+        }
+      }
+    },
+    "dzd-HU-38m.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"About System\"; ObjectID = \"dzd-HU-38m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عن مجمعك "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "About System"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لەسەر سیستەم"
+          }
+        }
+      }
+    },
+    "dzd-HU-38m.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"dzd-HU-38m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "e0c-YE-H0m.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Main Request\"; ObjectID = \"e0c-YE-H0m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلب الصيانة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Main Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکردنی چاکسازی"
+          }
+        }
+      }
+    },
+    "e0c-YE-H0m.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"e0c-YE-H0m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "eAi-1p-qnp.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"اختار الشقة \"; ObjectID = \"eAi-1p-qnp\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختار الشقة "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose the apartment"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شوقەکە هەڵبژێرە"
+          }
+        }
+      }
+    },
+    "eaN-FL-tKK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"mohamed.hassan@email.com\"; ObjectID = \"eaN-FL-tKK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "mohamed.hassan@email.com"
+          }
+        }
+      }
+    },
+    "eBH-I2-cGZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"قم بتحديد تفاصيل الزيارة لإرسال الطلب إلى إدارة المجمع.\"; ObjectID = \"eBH-I2-cGZ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "قم بتحديد تفاصيل الزيارة لإرسال الطلب إلى إدارة المجمع."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Specify the visit details to send the request to the complex management."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری سەردانەکە دیاری بکە بۆ ناردنی داواکارییەکە بۆ بەڕێوەبەرایەتی ئاڵۆز."
+          }
+        }
+      }
+    },
+    "ecg-Ap-DLA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"لديك حساب بالفعل\"; ObjectID = \"ecg-Ap-DLA\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لديك حساب بالفعل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You already have an account"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پێشتر ئەکاونتت هەیە"
+          }
+        }
+      }
+    },
+    "EeC-O5-bfD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"طلب زيارة جديد\"; ObjectID = \"EeC-O5-bfD\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلب زيارة جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New visit request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری سەردانێکی نوێ"
+          }
+        }
+      }
+    },
+    "EgV-l1-Wzj..configuration.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵوەشاندنەوەی داواکاری"
+          }
+        }
+      }
+    },
+    "EgV-l1-Wzj.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Cancel\"; ObjectID = \"EgV-l1-Wzj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵوەشاندنەوەی داواکاری"
+          }
+        }
+      }
+    },
+    "eqc-jC-mNb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"ادخل جميع البيانات ادناه حتى تتمكن من إنشاء حساب\"; ObjectID = \"eqc-jC-mNb\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل جميع البيانات ادناه حتى تتمكن من إنشاء حساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter all the information below to create an account."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بۆ دروستکردنی ئەکاونت هەموو ئەو زانیاریانەی خوارەوە بنووسە."
+          }
+        }
+      }
+    },
+    "ESh-3u-Bcf.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Previous Requests\"; ObjectID = \"ESh-3u-Bcf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطلبات السابقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous Requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاریە پێشووەکان"
+          }
+        }
+      }
+    },
+    "ESh-3u-Bcf.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"ESh-3u-Bcf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "f0s-gb-PdV.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visit Date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەرواری سەردان"
+          }
+        }
+      }
+    },
+    "FBU-ZP-NN7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"البريد الإكتروني\"; ObjectID = \"FBU-ZP-NN7\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الإكتروني (اختياري)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e-mail (Optional)"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئیمەیڵ (ئیختیاری)"
+          }
+        }
+      }
+    },
+    "fd5-Qc-LlH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"There are no visit requests added currently.\"; ObjectID = \"fd5-Qc-LlH\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يتم إضافة طلبات الزيارة حاليًا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "There are no visit requests added currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی سەردان زیاد نەکراوە."
+          }
+        }
+      }
+    },
+    "fQS-Mw-GZ0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Mobile number\"; ObjectID = \"fQS-Mw-GZ0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "fQS-Mw-GZ0.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "FxE-eI-mPz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Apartment Info\"; ObjectID = \"FxE-eI-mPz\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات الشقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Apartment Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری شوقە"
+          }
+        }
+      }
+    },
+    "FyK-SV-OAc.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"الدعم الفني\"; ObjectID = \"FyK-SV-OAc\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم الفني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "technical support"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پشتگیری تەکنیکی"
+          }
+        }
+      }
+    },
+    "fzn-sn-wmJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Waiting\"; ObjectID = \"fzn-sn-wmJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Waiting"
+          }
+        }
+      }
+    },
+    "G4M-Pv-mXf.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"the complex\"; ObjectID = \"G4M-Pv-mXf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المجمع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "the complex"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كۆمپلەكسه‌كه‌"
+          }
+        }
+      }
+    },
+    "G5C-z6-3bk.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"09:00ص\"; ObjectID = \"G5C-z6-3bk\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "09:00ص"
+          }
+        }
+      }
+    },
+    "G5C-z6-3bk.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"G5C-z6-3bk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "g7I-1O-2mJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"طلبات الصيانة الأخيرة\"; ObjectID = \"g7I-1O-2mJ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الصيانة الأخيرة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent maintenance requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکارییەکانی چاککردنەوەی ئەم دواییە"
+          }
+        }
+      }
+    },
+    "G21-gv-6Qd.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"2025-03-01\"; ObjectID = \"G21-gv-6Qd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2025-03-01"
+          }
+        }
+      }
+    },
+    "G21-gv-6Qd.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"G21-gv-6Qd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Gav-GQ-sjE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"قم بتعبئة تفاصيل المشكلة وسيتم إرسال طلبك إلى فريق الصيانة.\"; ObjectID = \"Gav-GQ-sjE\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قم بتعبئة تفاصيل المشكلة وسيتم إرسال طلبك إلى فريق الصيانة."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fill in the problem details and your request will be sent to the maintenance team."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری کێشەکە پڕبکەرەوە و داواکارییەکەت دەنێردرێت بۆ تیمی چاککردنەوە."
+          }
+        }
+      }
+    },
+    "GBn-S5-ol7.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"GBn-S5-ol7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Gc3-jH-G9R.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"request details\"; ObjectID = \"Gc3-jH-G9R\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل طلب الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "visit request details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری داواکاری سەردان"
+          }
+        }
+      }
+    },
+    "gcs-Tb-aIj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تعديل بياناتك\"; ObjectID = \"gcs-Tb-aIj\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل بياناتك"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modify your data"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دەستکاری داتاکانتان بکەن"
+          }
+        }
+      }
+    },
+    "gN2-bD-WZA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Click to upload\"; ObjectID = \"gN2-bD-WZA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لاختيار صوره"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Click to upload"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بۆ بارکردن کلیک بکە"
+          }
+        }
+      }
+    },
+    "gqq-dB-VqK.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الشقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apartment Number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی شوقە"
+          }
+        }
+      }
+    },
+    "gr9-GP-OYu.configuration.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال طلب لإعادة تعيين كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send request to reset the password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە بۆ ڕێستکردنی وشەی نهێنی"
+          }
+        }
+      }
+    },
+    "gr9-GP-OYu.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"gr9-GP-OYu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Gts-yK-Z1y.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"ليس لديك حساب ؟\"; ObjectID = \"Gts-yK-Z1y\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لديك حساب ؟"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't have an account?"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئەکاونتت نییە؟"
+          }
+        }
+      }
+    },
+    "GUe-MY-daH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Created At\"; ObjectID = \"GUe-MY-daH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم إنشاؤه في"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Created At"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دروستکراوە لە"
+          }
+        }
+      }
+    },
+    "guX-uN-GQY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Date Info\"; ObjectID = \"guX-uN-GQY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات التاريخ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Date Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری بەروار"
+          }
+        }
+      }
+    },
+    "GxF-fn-PJc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"GxF-fn-PJc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "gyM-wg-XVV.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"gyM-wg-XVV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
+          }
+        }
+      }
+    },
+    "hbw-7b-G5e.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"ادخل بيانات المستخدم لكل تستطيع المتابعة\"; ObjectID = \"hbw-7b-G5e\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ادخل بيانات المستخدم لكل تستطيع المتابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your mobile number so that you can continue"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایلەکەت داخڵ بکە بۆ ئەوەی بەردەوام بیت"
+          }
+        }
+      }
+    },
+    "Hga-ec-YAf.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"Hga-ec-YAf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Hhd-Ll-tlE.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إرسال الطلب\"; ObjectID = \"Hhd-Ll-tlE\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە"
+          }
+        }
+      }
+    },
+    "Hhd-Ll-tlE.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"Hhd-Ll-tlE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "hIJ-qg-qJj.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات طلب الصيانة\t"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maintenance Request Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری داواکاری چاککردنەوە"
+          }
+        }
+      }
+    },
+    "hiO-zH-T55.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"visiter phone\"; ObjectID = \"hiO-zH-T55\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم موبايل الزائر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "visiter phone"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تەلەفۆنی سەردانکەر"
+          }
+        }
+      }
+    },
+    "hkO-Ds-MOF.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \" \"; ObjectID = \"hkO-Ds-MOF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " "
+          }
+        }
+      }
+    },
+    "hkO-Ds-MOF.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"hkO-Ds-MOF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "HS5-de-tT9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Department\"; ObjectID = \"HS5-de-tT9\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقدم الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requester"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکار"
+          }
+        }
+      }
+    },
+    "hwA-Jy-EM4.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"تعديل الملف الشخصي\"; ObjectID = \"hwA-Jy-EM4\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل الملف الشخصي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit profile"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دەستکاریکردنی پڕۆفایلی"
+          }
+        }
+      }
+    },
+    "hwu-sb-uH4.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"hwu-sb-uH4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "I3t-0v-BwZ.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم إنشاؤه في"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created At"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دروستکراوە لە"
+          }
+        }
+      }
+    },
+    "I9Z-VS-KQm.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Terms of Service\"; ObjectID = \"I9Z-VS-KQm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بنود الخدمة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Terms of Service"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مەرجەکانی خزمەتگوزاری"
+          }
+        }
+      }
+    },
+    "I9Z-VS-KQm.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"I9Z-VS-KQm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "i57-rf-vTf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"+964\"; ObjectID = \"i57-rf-vTf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+964"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+964"
+          }
+        }
+      }
+    },
+    "IBj-ay-1eG.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"IBj-ay-1eG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "ilf-JZ-vXA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"أو المتابعة بواسطة\"; ObjectID = \"ilf-JZ-vXA\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أو المتابعة بواسطة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Or follow by"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "یان بەدواداچوون بکە"
+          }
+        }
+      }
+    },
+    "Io4-Km-vE5.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"There are no added requests currently.\"; ObjectID = \"Io4-Km-vE5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "There are no added requests currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی زیادە نییە."
+          }
+        }
+      }
+    },
+    "izJ-6y-jGX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"There are no added requests currently.\"; ObjectID = \"izJ-6y-jGX\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد طلبات مضافة حاليًا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "There are no added requests currently."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لە ئێستادا هیچ داواکارییەکی زیادە نییە."
+          }
+        }
+      }
+    },
+    "j5h-jV-AmA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"j5h-jV-AmA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "jgN-DJ-mrp.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"jgN-DJ-mrp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "jME-cK-BUn.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Department"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەش"
+          }
+        }
+      }
+    },
+    "jn1-mB-0N1.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Building Address\"; ObjectID = \"jn1-mB-0N1\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان المبنى"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Building Address"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشانی بینا"
+          }
+        }
+      }
+    },
+    "jtQ-hX-kYx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"كلمة المرور\"; ObjectID = \"jtQ-hX-kYx\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نهێنوشە"
+          }
+        }
+      }
+    },
+    "JTY-p0-leJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"JTY-p0-leJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Jzj-qA-rxb.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Payments\"; ObjectID = \"Jzj-qA-rxb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدفعات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payments"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پارەدانەکان"
+          }
+        }
+      }
+    },
+    "Jzj-qA-rxb.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"Jzj-qA-rxb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "k0k-kr-WHe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Maintenance Department\\n\"; ObjectID = \"k0k-kr-WHe\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات المستخدم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری بەکارهێنەر"
+          }
+        }
+      }
+    },
+    "KeP-lm-F6b.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"New Offer Available\"; ObjectID = \"KeP-lm-F6b\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "New Offer Available"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئۆفەری نوێ بەردەستە"
+          }
+        }
+      }
+    },
+    "Key 1" : {
+      "extractionState" : "manual"
+    },
+    "kvf-hO-rrP.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئاگادارکردنەوەکان"
+          }
+        }
+      }
+    },
+    "kvf-hO-rrP.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Notifications\"; ObjectID = \"kvf-hO-rrP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notifications"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئاگادارکردنەوەکان"
+          }
+        }
+      }
+    },
+    "KxO-wd-Xwj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تسجيل الخروج\"; ObjectID = \"KxO-wd-Xwj\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الخروج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log out"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دەرچوون لە دەرەوە"
+          }
+        }
+      }
+    },
+    "LcK-Q6-ohC.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"LcK-Q6-ohC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "lkG-I4-zA0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Complex Name\"; ObjectID = \"lkG-I4-zA0\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المجمع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Complex Name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی ئاڵۆز"
+          }
+        }
+      }
+    },
+    "Lly-pJ-1F7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"Lly-pJ-1F7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "LpC-SJ-XyO.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"LpC-SJ-XyO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "LRV-C1-8tm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Plumbing\"; ObjectID = \"LRV-C1-8tm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Plumbing"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئاوكاری"
+          }
+        }
+      }
+    },
+    "Lsv-XE-br0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الهاتف أو البريد الإكتروني\"; ObjectID = \"Lsv-XE-br0\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phone number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ژمارەی تەلەفۆن یان ئیمەیڵ"
+          }
+        }
+      }
+    },
+    "lUP-eQ-qI8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Attach ID photo (optional)\"; ObjectID = \"lUP-eQ-qI8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Attach ID photo (optional)"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پاشكردنی وێنەی ناسنامە (هەڵبژاردەیی"
+          }
+        }
+      }
+    },
+    "m98-EC-eFa.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل رقم الموبايل لكي تستطيع المتابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your mobile number so that you can continue"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایلەکەت داخڵ بکە بۆ ئەوەی بەردەوام بیت"
+          }
+        }
+      }
+    },
+    "mBb-Ao-HGK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الاسم الكامل\"; ObjectID = \"mBb-Ao-HGK\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "full name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی تەواو"
+          }
+        }
+      }
+    },
+    "mEY-FM-7HT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"123456\"; ObjectID = \"mEY-FM-7HT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "123456"
+          }
+        }
+      }
+    },
+    "mhU-br-OkY.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"Forget passowrd\"; ObjectID = \"mhU-br-OkY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Forget passowrd"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی لەبیر کردووە"
+          }
+        }
+      }
+    },
+    "Mjc-Ha-3Px.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Air Test Pagaination\"; ObjectID = \"Mjc-Ha-3Px\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Air Test Pagaination"
+          }
+        }
+      }
+    },
+    "mnz-Sp-ePw.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الملف الشخصي\"; ObjectID = \"mnz-Sp-ePw\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملف الشخصي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پرۆفایل"
+          }
+        }
+      }
+    },
+    "msM-h2-Lqs.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"نوع الشكوى\"; ObjectID = \"msM-h2-Lqs\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع الشكوى"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type of complaint"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جۆری سکاڵا"
+          }
+        }
+      }
+    },
+    "my9-Zm-GUp.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المجمع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complex Name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی ئاڵۆز"
+          }
+        }
+      }
+    },
+    "NDd-Xg-c8B.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Maintenance Request\"; ObjectID = \"NDd-Xg-c8B\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الصيانة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Maintenance Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکردنی چاکسازی"
+          }
+        }
+      }
+    },
+    "NDd-Xg-c8B.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"NDd-Xg-c8B\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "NIK-Nm-Vcy.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Terms of Service\"; ObjectID = \"NIK-Nm-Vcy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بنود الخدمة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Terms of Service"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مەرجەکانی خزمەتگوزاری"
+          }
+        }
+      }
+    },
+    "NIX-H7-EQH" : {
+      "extractionState" : "manual"
+    },
+    "NIX-H7-EQH.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "request details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری داواکاری"
+          }
+        }
+      }
+    },
+    "NKF-Lw-aRX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"NKF-Lw-aRX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "nN9-Oz-5NY.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"About System\"; ObjectID = \"nN9-Oz-5NY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عن مجمعك "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "About System"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لەسەر سیستەم"
+          }
+        }
+      }
+    },
+    "nno-fQ-8zq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تسجيل الدخول\"; ObjectID = \"nno-fQ-8zq\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چوونەژوورەوە"
+          }
+        }
+      }
+    },
+    "NqF-z4-YIr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2025-07-08 12:20\"; ObjectID = \"NqF-z4-YIr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2025-07-08 12:20"
+          }
+        }
+      }
+    },
+    "NX1-1r-eUs.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Waiting\"; ObjectID = \"NX1-1r-eUs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Waiting"
+          }
+        }
+      }
+    },
+    "nXx-k8-GRj.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Cancel\"; ObjectID = \"nXx-k8-GRj\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دروستکراوە لە"
+          }
+        }
+      }
+    },
+    "nXx-k8-GRj.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"nXx-k8-GRj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "nxz-59-qFc.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"عرض الكل\"; ObjectID = \"nxz-59-qFc\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الكل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View all"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بینینی هەموو"
+          }
+        }
+      }
+    },
+    "nxz-59-qFc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"nxz-59-qFc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "nYB-4I-GFK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total Paid\"; ObjectID = \"nYB-4I-GFK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمالي المدفوع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total Paid"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کۆی پارەی داوە"
+          }
+        }
+      }
+    },
+    "O0S-ld-LQQ.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Complaints & Support\"; ObjectID = \"O0S-ld-LQQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشكاوى و الدعم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Complaints & Support"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سکاڵا و پشتیوانی"
+          }
+        }
+      }
+    },
+    "O0S-ld-LQQ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"O0S-ld-LQQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "o3S-Sx-mIj.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"View all\"; ObjectID = \"o3S-Sx-mIj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الكل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "View all"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بینینی هەموو"
+          }
+        }
+      }
+    },
+    "o3S-Sx-mIj.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"o3S-Sx-mIj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "o9g-RO-6tu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الإشعارات \"; ObjectID = \"o9g-RO-6tu\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئاگادارکردنەوەکان"
+          }
+        }
+      }
+    },
+    "oEb-f2-OrG.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"visiter name\"; ObjectID = \"oEb-f2-OrG\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الزائر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "visiter name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی سەردانکەر"
+          }
+        }
+      }
+    },
+    "ohQ-5R-ZH2.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"ohQ-5R-ZH2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "OLd-2v-qZM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الرئيسية\"; ObjectID = \"OLd-2v-qZM\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرئيسية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماڵەوە"
+          }
+        }
+      }
+    },
+    "peF-Q7-xlc.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مەرجەکە"
+          }
+        }
+      }
+    },
+    "PGd-DE-bBc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"أهلا سارة\"; ObjectID = \"PGd-DE-bBc\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهلا عزيزي/ة الساكن"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello dear resident"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سڵاو دانیشتووی ئازیز"
+          }
+        }
+      }
+    },
+    "pKL-1k-zxk.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Waiting\"; ObjectID = \"pKL-1k-zxk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Waiting"
+          }
+        }
+      }
+    },
+    "Pry-s4-kyZ.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Add a new visit request\"; ObjectID = \"Pry-s4-kyZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة طلب زيارة جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add a new visit request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری سەردانێکی نوێ زیاد بکە"
+          }
+        }
+      }
+    },
+    "qE9-pW-R4c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Apartment Number\"; ObjectID = \"qE9-pW-R4c\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دۆخ"
+          }
+        }
+      }
+    },
+    "qJU-vW-VDW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الموبايل\"; ObjectID = \"qJU-vW-VDW\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "QK3-fJ-2gZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"List of Previous Payments\"; ObjectID = \"QK3-fJ-2gZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة الدفعات السابقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "List of Previous Payments"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لیستی پارەدانەکانی پێشوو"
+          }
+        }
+      }
+    },
+    "qPe-N2-TS7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"continue your offers in easy way\"; ObjectID = \"qPe-N2-TS7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "متابعة طلباتك وعروض المجمعات بسهولة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "continue your offers in easy way"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەردەوام بە لە ئۆفەرەکانت بە شێوەیەکی ئاسان"
+          }
+        }
+      }
+    },
+    "Qq1-Vx-HHH.configuration.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال طلب لإعادة تعيين كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send request to reset the password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە بۆ ڕێستکردنی وشەی نهێنی"
+          }
+        }
+      }
+    },
+    "qRs-ae-zHX.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"qRs-ae-zHX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "r4O-lY-9Ok.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"r4O-lY-9Ok\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "RBH-tm-gQv" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تعيين كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی ڕێست بکە"
+          }
+        }
+      }
+    },
+    "RBH-tm-gQv.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Reset password\"; ObjectID = \"RBH-tm-gQv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تعيين كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی ڕێست بکە"
+          }
+        }
+      }
+    },
+    "RHJ-B8-698.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visit requests"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری سەردان"
+          }
+        }
+      }
+    },
+    "rjo-Rt-fTG.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"rjo-Rt-fTG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Rjv-r4-3NS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"اختر اللغة\"; ObjectID = \"Rjv-r4-3NS\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر اللغة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select language"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زمان هەڵبژێرە"
+          }
+        }
+      }
+    },
+    "RJX-tB-1vF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Air Test Pagaination\"; ObjectID = \"RJX-tB-1vF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Air Test Pagaination"
+          }
+        }
+      }
+    },
+    "rKc-AU-yiL.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"تحديث\"; ObjectID = \"rKc-AU-yiL\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "save"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵگرتن"
+          }
+        }
+      }
+    },
+    "rKc-AU-yiL.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"rKc-AU-yiL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "RKP-sJ-g82.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"اللغة\"; ObjectID = \"RKP-sJ-g82\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللغة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the language"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زمانەکە"
+          }
+        }
+      }
+    },
+    "Rlu-h6-fpd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Hello dear resident\"; ObjectID = \"Rlu-h6-fpd\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهلا عزيزي/ة الساكن"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Hello dear resident"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سڵاو دانیشتووی ئازیز"
+          }
+        }
+      }
+    },
+    "RrU-wN-47j.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوصف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وەسف"
+          }
+        }
+      }
+    },
+    "RTh-D4-Lf4.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"RTh-D4-Lf4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "s0O-5T-Ec6.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"s0O-5T-Ec6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
+          }
+        }
+      }
+    },
+    "siN-HH-InQ.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"عرض الكل\"; ObjectID = \"siN-HH-InQ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الكل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View all"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بینینی هەموو"
+          }
+        }
+      }
+    },
+    "sTb-ms-GhG.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Fix Tellll\"; ObjectID = \"sTb-ms-GhG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Fix Tellll"
+          }
+        }
+      }
+    },
+    "SUd-Ky-0sx.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"الشقة المطلوبة\"; ObjectID = \"SUd-Ky-0sx\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشقة المطلوبة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The desired apartment"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شوقەی دڵخواز"
+          }
+        }
+      }
+    },
+    "SVF-vc-f9U.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"المزيد\"; ObjectID = \"SVF-vc-f9U\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزيد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "more"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زیاتر"
+          }
+        }
+      }
+    },
+    "T1U-6w-loW.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"T1U-6w-loW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "TaO-vg-9KS.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات الزائر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visitor Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری سەردانکەران"
+          }
+        }
+      }
+    },
+    "tb8-Y3-Yde.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Fix Tellll\"; ObjectID = \"tb8-Y3-Yde\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Fix Tellll"
+          }
+        }
+      }
+    },
+    "TdG-EG-mBv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Terms of Service\"; ObjectID = \"TdG-EG-mBv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بنود الخدمة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Terms of Service"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مەرجەکانی خزمەتگوزاری"
+          }
+        }
+      }
+    },
+    "TnT-4Y-PTJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"TnT-4Y-PTJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "tPb-5A-3q1.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إرسال الطلب\"; ObjectID = \"tPb-5A-3q1\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە"
+          }
+        }
+      }
+    },
+    "tPb-5A-3q1.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"tPb-5A-3q1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "u0i-Id-pBR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الاسم الكامل\"; ObjectID = \"u0i-Id-pBR\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "full name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی تەواو"
+          }
+        }
+      }
+    },
+    "U3s-9Z-8WT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"U3s-9Z-8WT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "UL4-UB-07H.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"+781592881713\"; ObjectID = \"UL4-UB-07H\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+781592881713"
+          }
+        }
+      }
+    },
+    "uOJ-jb-Iih.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Plumbing\"; ObjectID = \"uOJ-jb-Iih\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Plumbing"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئاوكاری"
+          }
+        }
+      }
+    },
+    "uuY-yT-3g2.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"I read the text\"; ObjectID = \"uuY-yT-3g2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمت القراءة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I read the text"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " نووسەکە خوێندمەوە"
+          }
+        }
+      }
+    },
+    "uuY-yT-3g2.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"uuY-yT-3g2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "V1p-qC-MOh.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Visit Request\"; ObjectID = \"V1p-qC-MOh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Visit Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکردنی سەردان"
+          }
+        }
+      }
+    },
+    "V1p-qC-MOh.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"V1p-qC-MOh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "vg5-lS-0OZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Manage your residential transactions\"; ObjectID = \"vg5-lS-0OZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادارة تعاملاتك السكنية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Manage your residential transactions"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەڕێوەبردنی مامەڵەکانت‌ی نیشتەجێبوون"
+          }
+        }
+      }
+    },
+    "VRA-43-WhE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"VRA-43-WhE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "vtc-r1-G8D.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"عرض الكل\"; ObjectID = \"vtc-r1-G8D\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الكل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View all"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بینینی هەموو"
+          }
+        }
+      }
+    },
+    "vtc-r1-G8D.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"vtc-r1-G8D\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "vu5-Uo-55a.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \" \"; ObjectID = \"vu5-Uo-55a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " "
+          }
+        }
+      }
+    },
+    "vu5-Uo-55a.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"vu5-Uo-55a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "W1A-WY-FTH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"أوافق على الشروط والأحكام\"; ObjectID = \"W1A-WY-FTH\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوافق على الشروط والأحكام."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I agree to the terms and conditions"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منیش بە مەرج و ڕێساکان ڕازیم"
+          }
+        }
+      }
+    },
+    "w9p-mC-PZ3.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Check out our latest offer in the app!\"; ObjectID = \"w9p-mC-PZ3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Check out our latest offer in the app!"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوێترین ئۆفەرمان لە ئەپەکەدا ببینە!"
+          }
+        }
+      }
+    },
+    "WbD-AR-Eal.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"إضافة طلب صيانة جديد\"; ObjectID = \"WbD-AR-Eal\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة طلب صيانة جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a new maintenance request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکارییەکی نوێی چاککردنەوە زیاد بکە"
+          }
+        }
+      }
+    },
+    "wIo-O7-I1S.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تفاصيل المشكلة\"; ObjectID = \"wIo-O7-I1S\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل إضافية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Additional details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری زیاتر"
+          }
+        }
+      }
+    },
+    "wma-bt-y04.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"البريد الإكتروني\"; ObjectID = \"wma-bt-y04\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الإكتروني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e-mail"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئیمەیڵ"
+          }
+        }
+      }
+    },
+    "WW5-to-txx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"البريد الإكتروني\"; ObjectID = \"WW5-to-txx\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الإكتروني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e-mail"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئیمەیڵ"
+          }
+        }
+      }
+    },
+    "x6a-iW-e4c.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"إنشاء حساب مستخدم جديد\"; ObjectID = \"x6a-iW-e4c\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء حساب مستخدم جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a new user account"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دروستکردنی ئەکاونتی بەکارهێنەری نوێ"
+          }
+        }
+      }
+    },
+    "x26-cS-E6w.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1234567\"; ObjectID = \"x26-cS-E6w\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1234567"
+          }
+        }
+      }
+    },
+    "XBW-vv-6et.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Remember Me\"; ObjectID = \"XBW-vv-6et\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تذكرني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Remember Me"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منت لەبیرە"
+          }
+        }
+      }
+    },
+    "xcH-sV-G2e.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Visit Request\"; ObjectID = \"xcH-sV-G2e\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Visit Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکردنی سەردان"
+          }
+        }
+      }
+    },
+    "xcH-sV-G2e.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"xcH-sV-G2e\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "xdw-uI-AgO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"العنوان\"; ObjectID = \"xdw-uI-AgO\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the address"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناونیشانەکە"
+          }
+        }
+      }
+    },
+    "XeM-ha-QqH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"جاري تحميل بيانات المستخدم\"; ObjectID = \"XeM-ha-QqH\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري تحميل بيانات المستخدم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading user data"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بارکردنی داتای بەکارهێنەر"
+          }
+        }
+      }
+    },
+    "XlN-Ob-LrC.text" : {
+      "comment" : "Class = \"UILabel\"; text = \" تعيين كلمة مرور جديدة\"; ObjectID = \"XlN-Ob-LrC\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " تعيين كلمة مرور جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "set a new password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وشەی نهێنی نوێ دابنێ"
+          }
+        }
+      }
+    },
+    "XPn-JR-uq5.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"XPn-JR-uq5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "xRm-Rv-kkB.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"تسجيل الدخول\"; ObjectID = \"xRm-Rv-kkB\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "login"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چوونەژوورەوە"
+          }
+        }
+      }
+    },
+    "xRm-Rv-kkB.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"xRm-Rv-kkB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "Yjx-e7-nlO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2025-07-08 12:20\"; ObjectID = \"Yjx-e7-nlO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2025-07-08 12:20"
+          }
+        }
+      }
+    },
+    "YLB-Yo-wwQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الاسم الكامل\"; ObjectID = \"YLB-Yo-wwQ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "full name"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ناوی تەواو"
+          }
+        }
+      }
+    },
+    "yNG-Nb-nRr.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات الزيارة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visit Info"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زانیاری سەردان بکە"
+          }
+        }
+      }
+    },
+    "YTa-15-siN.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إرسال طلب تغيير كلمة المرور\"; ObjectID = \"YTa-15-siN\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال طلب لإعادة كلمة المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "send request to reset the password"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکاری بنێرە بۆ ڕێستکردنی وشەی نهێنی"
+          }
+        }
+      }
+    },
+    "z3G-up-dyj.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"592661914\"; ObjectID = \"z3G-up-dyj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "592661914"
+          }
+        }
+      }
+    },
+    "z9I-9a-ySE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"View previous and due invoices available for direct payment\"; ObjectID = \"z9I-9a-ySE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاطلاع على الفواتير السابقه و المتاحة للدفع المباشر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "View previous and due invoices available for direct payment"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بینینی فاکتۆرەکانی پێشوو و قەرز کە بۆ پارەدانی ڕاستەوخۆ بەردەستن"
+          }
+        }
+      }
+    },
+    "Z17-I4-4hJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"اختر الوقت\"; ObjectID = \"Z17-I4-4hJ\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر الوقت"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose the time"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کاتەکە هەڵبژێرە"
+          }
+        }
+      }
+    },
+    "ZIk-BH-mob.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Click to upload\"; ObjectID = \"ZIk-BH-mob\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Click to upload"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بۆ بارکردن کلیک بکە"
+          }
+        }
+      }
+    },
+    "zLj-d2-9nB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم الهاتف\"; ObjectID = \"zLj-d2-9nB\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الموبايل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "ZPk-7q-Hwd.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"إنشاء حساب\"; ObjectID = \"ZPk-7q-Hwd\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء حساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create an account"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ئەکاونتێک دروست بکە"
+          }
+        }
+      }
+    },
+    "ZPk-7q-Hwd.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"ZPk-7q-Hwd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "zUg-Kp-b5R.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Previous tickets\"; ObjectID = \"zUg-Kp-b5R\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التذاكر السابقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previous tickets"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلیتی پێشوو"
+          }
+        }
+      }
+    },
+    "ZVE-bl-M5u.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \" \"; ObjectID = \"ZVE-bl-M5u\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " "
+          }
+        }
+      }
+    },
+    "ZVE-bl-M5u.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"ZVE-bl-M5u\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "ZyF-HV-cyN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Fix Tellll\"; ObjectID = \"ZyF-HV-cyN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Fix Tellll"
+          }
+        }
+      }
+    },
+    "zzZ-g3-5b7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"ادخل بيانات المستخدم لكل تستطيع المتابعة\"; ObjectID = \"zzZ-g3-5b7\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل البيانات أدناه لتسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your user data so you can continue."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داتای بەکارهێنەرەکەت دابنێ تا بتوانیت بەردەوام بیت."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

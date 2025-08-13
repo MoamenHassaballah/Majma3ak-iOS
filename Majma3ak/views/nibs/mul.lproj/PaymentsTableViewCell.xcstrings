@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "9Xn-HW-hns.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"200\"; ObjectID = \"9Xn-HW-hns\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "200"
+          }
+        }
+      }
+    },
+    "aze-28-pqZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Invoice Amount\"; ObjectID = \"aze-28-pqZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مبلغ الفاتورة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invoice Amount"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بڕی فاکتۆر"
+          }
+        }
+      }
+    },
+    "cYh-Ks-J1V.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"10-10-2025\"; ObjectID = \"cYh-Ks-J1V\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "10-10-2025"
+          }
+        }
+      }
+    },
+    "EMb-gK-xbl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1\"; ObjectID = \"EMb-gK-xbl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "lJb-X7-bGK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Pending\"; ObjectID = \"lJb-X7-bGK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pending"
+          }
+        }
+      }
+    },
+    "NAf-sT-fD3.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"State\"; ObjectID = \"NAf-sT-fD3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الوقت"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "State"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کات"
+          }
+        }
+      }
+    },
+    "U91-tH-ziL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment Date\"; ObjectID = \"U91-tH-ziL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment Date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "دۆخ"
+          }
+        }
+      }
+    },
+    "zkl-8p-MOA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Invoice Number\"; ObjectID = \"zkl-8p-MOA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الفاتورة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invoice Number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی فاکتۆر"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

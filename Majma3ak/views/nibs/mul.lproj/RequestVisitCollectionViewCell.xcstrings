@@ -1,0 +1,192 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "6k7-ku-pI8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"التاريخ\"; ObjectID = \"6k7-ku-pI8\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاريخ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ڕێکەوت"
+          }
+        }
+      }
+    },
+    "fAe-0I-LiB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"5:00 مساءً\"; ObjectID = \"fAe-0I-LiB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "5:00 مساءً"
+          }
+        }
+      }
+    },
+    "iBh-CA-g2c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الحالة\"; ObjectID = \"iBh-CA-g2c\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "status"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دۆخ"
+          }
+        }
+      }
+    },
+    "iJE-1u-195.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الوقت\"; ObjectID = \"iJE-1u-195\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "time"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کات"
+          }
+        }
+      }
+    },
+    "L2P-wg-Kdr.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Cancel Request\"; ObjectID = \"L2P-wg-Kdr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الغاء الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel Request"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵوەشاندنەوەی داواکاری"
+          }
+        }
+      }
+    },
+    "L2P-wg-Kdr.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"L2P-wg-Kdr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "qkL-8o-JJ4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الزائر\"; ObjectID = \"qkL-8o-JJ4\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الزائر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visitor"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سەردانکەر"
+          }
+        }
+      }
+    },
+    "qlE-v8-Aoi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"25 سبتمبر 2024\"; ObjectID = \"qlE-v8-Aoi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "25 سبتمبر 2024"
+          }
+        }
+      }
+    },
+    "sSe-az-T3S.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"موافق عليه\"; ObjectID = \"sSe-az-T3S\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "موافق عليه"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موافق عليه"
+          }
+        }
+      }
+    },
+    "utx-Wi-6Jj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"أحمد علي\"; ObjectID = \"utx-Wi-6Jj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "أحمد علي"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

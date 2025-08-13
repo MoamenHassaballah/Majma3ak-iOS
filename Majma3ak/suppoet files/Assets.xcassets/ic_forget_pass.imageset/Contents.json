@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_forget_pass.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,219 @@
+/* 
+  Localizable.strings
+  ReviosnIOSTotourial
+
+  Created by ezz on 01/08/2024.
+  
+*/
+"Login" = "Login";
+"Welcome Back" = "Welcome Back";
+"Alert!" = "Alert!";
+"Are you sure to change App Language? The application will turn off.plase relunch it again." = "Are you sure to change App Language? The application will turn off.plase relunch it again.";
+
+"Continue Your Requests in dalaiy" = "Continue Your Requests in dalaiy";
+"waiting" = "Waiting";
+"confirmed" = "confirmed";
+"in_progress" = "In Progress";
+"rejected" = "Rejected";
+"completed" = "Completed";
+"Failed to send maintenance request"="Failed to send maintenance request";
+"Maintenance request sent successfully"="Maintenance request sent successfully";
+"Send Request"="Send Request";
+"Visit request added in success" = "Visit request added in success";
+"Visit request failed to send" = "Visit request failed to send";
+
+"visitor_name_required" = "Visitor name is required";
+"visitor_phone_required" = "Visitor mobile number is required";
+"select_date_required" = "Please select a date";
+"select_time_required" = "Please select a time";
+"description_required" = "Problem description is required";
+"send Request"="send Request";
+"inquiry"="inquiry";
+"complaint"="complaint";
+"Choose a language"="Choose a language";
+"Cancel"="Cancel";
+
+"full_name_required" = "Full name is required";
+"email_required" = "Email is required";
+"invalid_email" = "Please enter a valid email";
+"mobile_required" = "Mobile number is required";
+"invalid_mobile" = "Please enter a valid phone number with country code";
+"password_required" = "Password is required";
+"password_length" = "Password must be more than 8 characters";
+"agree_terms_required" = "You must agree to the terms and conditions";
+"choose_language" = "Choose a language";
+"cancel" = "Cancel";
+"Your data has been updated."="Your data has been updated.";
+"Data not updated, operation failed"="Data not updated, operation failed";
+"None of the data has been updated."="None of the data has been updated.";
+
+"Cancel"="Cancel";
+"Ok"="Ok";
+"Change language to"="Change language to";
+"Must Restart app to change the language"="Must Restart app to change the language";
+
+"Enter the code sent to your phon"="Enter the code sent to your phon";
+"Didn't receive the code? Resend"="Didn't receive the code? Resend";
+
+
+"Password reset OTP sent successfully" = "Password reset OTP sent successfully";
+"send request to reset the password"="send request to reset the password";
+
+
+
+"The code was not sent, please try again."="The code was not sent, please try again.";
+"Verify"="Verify";
+"Enter new password" = "Enter new password";
+"Confirm new password" = "Confirm new password";
+"Reset Password" = "Reset Password";
+"Please fill in all fields" = "Please fill in all fields";
+"Passwords do not match" = "Passwords do not match";
+"Password reset successfully" = "Password reset successfully";
+"Error: %@" = "Error: %@";
+"Contact technical support"  = "Contact technical support" ;
+"Sign out"  = "Sign out" ;
+"Change language" =  "Change language";
+
+"Plumbing" = "Plumbing";
+"Electrical" = "Electrical";
+"Heating" = "Heating";
+"Cooling" = "Cooling";
+"Blacksmithing" = "Blacksmithing";
+"Carpentry" = "Carpentry";
+"Others" = "Others";
+"HVAC" = "HVAC";
+
+
+"Registration successful. Please verify your phone number." = "Registration successful. Please verify your phone number.";
+
+"Something went wrong, please check your mobile number or password."="Something went wrong, please check your mobile number or password.";
+"Language required" = "Language required";
+"Passwords do not match"="Passwords do not match";
+"request cancellation failed" = "request cancellation failed";
+"The request was successfully cancelled." = "The request was successfully cancelled.";
+"An error occurred while loading data.\nPlease check your internet connection and try again."="An error occurred while loading data.\nPlease check your internet connection and try again.";
+"Retry" = "Retry";
+"mistake" ="mistake";
+"Login successful"="Login successful";
+"Maintenance"="Maintenance";
+"Visit"="Visit";
+
+"Visit request"="Visit request";
+"Maintenance request" = "Maintenance request";
+"View all"= "View all";
+"pending"="pending";
+"cancelled"="cancelled";
+"Complex required"="Complex required";
+"There was a problem registering, check your internet and try again."="There was a problem registering, check your internet and try again.";
+
+"Create an account"="Create an account";
+"Registering..." = "Registering...";
+"Logging in..." = "Logging in...";
+
+"Yes" = "Yes";
+"No" = "No";
+
+
+
+"TermsOfServiceText" = "
+Welcome to \"Mujamma'ak\", the specialized platform for managing maintenance services for residential complexes.
+By using our services, you agree to comply with the following terms and conditions:
+
+1. Service Definition
+\"Mujamma'ak\" is a system that enables residential complex management to log reports, organize maintenance work, and track request statuses and execution dates through an easy-to-use electronic application.
+
+2. Terms of Use
+
+The user must be an owner or an authorized representative of the residential complex management.
+
+Accurate and up-to-date information must be provided during registration.
+
+The service may not be used for any illegal purposes or in violation of the country's laws and regulations.
+
+3. Services Provided
+The services of \"Mujamma'ak\" include, but are not limited to:
+
+Receiving maintenance requests from residents
+
+Scheduling and organizing regular maintenance work
+
+Documenting maintenance work and technical reports
+
+Notifications and alerts regarding appointments and execution
+
+Managing visit schedules
+
+Managing other matters related to the resident and the complex
+
+4. Privacy and Data Protection
+
+We are committed to protecting the data of complexes and residents and will not share it with any third party without explicit permission.
+
+Data is used solely to improve services and provide a customized experience for each complex.
+
+5. Maintenance and Malfunctions
+
+\"Mujamma'ak\" is not directly responsible for carrying out maintenance work, but coordinates between the complex management and service providers.
+
+The platform does not guarantee the quality of work performed by external parties but allows them to be rated through the system.
+
+6. Service Termination
+
+Any party has the right to terminate the use of the service at any time, with access to data canceled after a specified period.
+
+The platform has the right to suspend or terminate a user’s account in case of violation of the terms.
+
+7. Modifications
+The management of \"Mujamma'ak\" has the right to modify these terms at any time, and users will be notified of any changes via the platform or email.
+
+";
+
+
+
+
+"AboutSystemText" = "
+It is an innovative electronic system for managing maintenance and visits within residential complexes, aiming to facilitate communication and organize the relationship between the complex management and residents on one hand, and maintenance service providers (individuals or companies) on the other, through an intelligent platform available as a mobile application.
+
+What the system offers:
+
+Maintenance and Report Management:
+Allows residents to easily submit maintenance requests, with the system automatically forwarding them to the complex management and coordinating with the appropriate technical parties.
+
+Visit Scheduling:
+Enables scheduling of regular or emergency maintenance visits through the system, with instant notifications to all concerned parties.
+
+Comprehensive Control Panel:
+Provides management with a complete view of all activities inside the complex, including maintenance, visits, reports, service provider performance, and more.
+
+Direct Connection with Service Providers:
+Links complex management with certified maintenance individuals or companies, with the ability to rate performance, track execution, and analyze service quality.
+
+Ease of Use for Residents and Users:
+Allows residents to submit requests, track the status of reports, view appointments, and provide ratings after the service is completed.
+
+System Goals:
+
+- Improve the efficiency of residential complex management.
+
+- Enhance the residents’ experience in receiving maintenance services.
+
+- Speed up and organize responses to technical reports.
+
+- Strengthen transparency between management, residents, and technical parties.
+
+- Provide periodic reports and statistics to support decision-making.
+";
+
+"IQD" = "IQD";
+
+"pending" = "pending";
+"paid" = "paid";
+"canceled" = "canceled";
+
+"Hello" = "Hello";
+
+"loading.." = "loading..";
+
+
+
+"My Test Text" = "My Test Text In English";

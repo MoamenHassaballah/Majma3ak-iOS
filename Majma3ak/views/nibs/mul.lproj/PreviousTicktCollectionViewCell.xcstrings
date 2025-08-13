@@ -1,0 +1,162 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "3GX-11-ALg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"رقم التذكرة\"; ObjectID = \"3GX-11-ALg\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ticket number"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژمارەی بلیت"
+          }
+        }
+      }
+    },
+    "4At-6H-r9h.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"25 سبتمبر 2024\"; ObjectID = \"4At-6H-r9h\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "25 سبتمبر 2024"
+          }
+        }
+      }
+    },
+    "7Bc-Xx-Ke7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \" آخر رد :\"; ObjectID = \"7Bc-Xx-Ke7\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last reply:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last reply:"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوا وەڵام:"
+          }
+        }
+      }
+    },
+    "DwW-bn-Rou.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"قيد المعالجة\"; ObjectID = \"DwW-bn-Rou\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قيد المعالجة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under processing"
+          }
+        }
+      }
+    },
+    "J6u-S4-Lwo.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تم تحويل طلبك إلى فريق الصيانة، وسيتم التواصل معك قريبًا.\"; ObjectID = \"J6u-S4-Lwo\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم تحويل طلبك إلى فريق الصيانة، وسيتم التواصل معك قريبًا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your request has been forwarded to the maintenance team, and you will be contacted soon."
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "داواکارییەکەت بۆ تیمی چاککردنەوە نێردراوە، و بەم زووانە پەیوەندیت پێوە دەکرێت."
+          }
+        }
+      }
+    },
+    "kbe-zD-qZw.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"#24567\"; ObjectID = \"kbe-zD-qZw\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "#24567"
+          }
+        }
+      }
+    },
+    "P7M-og-uQw.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"تاريخ الطلب\"; ObjectID = \"P7M-og-uQw\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Order date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بەرواری داواکردن"
+          }
+        }
+      }
+    },
+    "PJW-Zc-dA2.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"الحالة\"; ObjectID = \"PJW-Zc-dA2\";",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the condition"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مەرجەکە"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
