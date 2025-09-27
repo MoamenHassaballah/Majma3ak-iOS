@@ -28,8 +28,13 @@ class SplashScreenVC: UIViewController {
         
         // Set the corner radius for the inner progress bar
         // This is a common technique to make the inner bar rounded as well.
-        progressView.layer.sublayers?[1].cornerRadius = 8
-        progressView.subviews[1].clipsToBounds = true
+        if (progressView.layer.sublayers?.count ?? 0) > 1 {
+            progressView.layer.sublayers?[1].cornerRadius = 8
+        }
+        
+        if (progressView.subviews.count > 1) {
+            progressView.subviews[1].clipsToBounds = true
+        }
         
         return progressView
     }()

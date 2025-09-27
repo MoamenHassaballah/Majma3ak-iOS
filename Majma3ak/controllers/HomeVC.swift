@@ -778,7 +778,7 @@ extension HomeVC : FSPagerViewDataSource , FSPagerViewDelegate {
             }
             
             cell.textLabel?.text = offer.title
-
+            cell.descriptionLabel?.text = offer.description
         case .complexImage(let complexName, let complex):
             
             cell.imageView?.contentMode = .scaleAspectFill

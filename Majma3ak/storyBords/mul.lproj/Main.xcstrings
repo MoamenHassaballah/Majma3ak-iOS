@@ -1244,19 +1244,19 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "مرحبًا بك في لوحة التحكم"
+            "value" : "مرحبا بك في مُجمعك"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Welcome to the control panel"
+            "value" : "Welcome to Mojamaak"
           }
         },
         "ku" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "بەخێربێن بۆ پانێڵی کۆنترۆڵ"
+            "value" : "بەخێربێیت بۆ کۆمەڵگەکەت."
           }
         }
       }

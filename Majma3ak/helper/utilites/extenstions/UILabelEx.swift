@@ -50,5 +50,14 @@ extension UILabel {
             self.font = newFont
         }
     }
+    
+    func applyCustomFont(_ fontSize: CGFloat) {
+        let customFontName = "FFShamelFamily-SansOneBook"
+        
+        if let currentFont = self.font,
+           let newFont = UIFont(name: customFontName, size: fontSize) {
+            self.font = newFont
+        }
+    }
 }
 
