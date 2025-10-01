@@ -815,6 +815,22 @@ extension HomeVC : FSPagerViewDataSource , FSPagerViewDelegate {
         
     }
     
+    func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "OfferDetailsVC") as? OfferDetailsVC
+        
+        switch sliders[index] {
+        case .offer(let offer):
+            vc?.imageUrl = offer.imageUrl
+            vc?.titleString = offer.title
+            vc?.descriptionString = offer.description
+        case .complexImage(let complexName, let complex):
+            vc?.imageUrl = complex.imageUrl
+            vc?.titleString = complexName
+        }
+        
+        vc?.push()
+    }
+    
 //    func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
 //        let broswer = MWPhotoBrowser()
 //        broswer.displayActionButton = true

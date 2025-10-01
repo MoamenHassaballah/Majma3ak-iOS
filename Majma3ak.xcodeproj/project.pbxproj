@@ -73,10 +73,12 @@
 		43FD19612E1658DD00C784C2 /* PreviousTicktCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43FD19602E1658DD00C784C2 /* PreviousTicktCollectionViewCell.xib */; };
 		43FD19642E16AD9C00C784C2 /* ContactsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD19632E16AD9C00C784C2 /* ContactsResponse.swift */; };
 		43FD19672E173FE500C784C2 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD19662E173FE500C784C2 /* EditProfileVC.swift */; };
+		5311718A2E8D6BE5003D3C0F /* NotificationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531171892E8D6BE5003D3C0F /* NotificationDetailsVC.swift */; };
 		5357B37F2E496897004185BE /* TermsOfServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357B37E2E496897004185BE /* TermsOfServiceVC.swift */; };
 		537E304D2E4B8F1A008258D1 /* PaymentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */; };
 		537E30512E4B9495008258D1 /* PaymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */; };
 		537E30542E4B9585008258D1 /* PaymentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537E30532E4B9585008258D1 /* PaymentsTableViewCell.xib */; };
+		53938E4B2E8C5D6300DB5697 /* OfferDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53938E4A2E8C5D6300DB5697 /* OfferDetailsVC.swift */; };
 		53B156962E4A5395007B823E /* AboutSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156952E4A5395007B823E /* AboutSystemVC.swift */; };
 		53B156982E4A9917007B823E /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156972E4A9917007B823E /* PaymentsVC.swift */; };
 		53B1569A2E4A996E007B823E /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156992E4A996A007B823E /* UILabelEx.swift */; };
@@ -162,11 +164,13 @@
 		43FD19632E16AD9C00C784C2 /* ContactsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsResponse.swift; sourceTree = "<group>"; };
 		43FD19662E173FE500C784C2 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		4CAC8C9B69F7A78B4ED81253 /* Pods-Majma3ak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Majma3ak.debug.xcconfig"; path = "Target Support Files/Pods-Majma3ak/Pods-Majma3ak.debug.xcconfig"; sourceTree = "<group>"; };
+		531171892E8D6BE5003D3C0F /* NotificationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailsVC.swift; sourceTree = "<group>"; };
 		5357B37E2E496897004185BE /* TermsOfServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceVC.swift; sourceTree = "<group>"; };
 		537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsResponse.swift; sourceTree = "<group>"; };
 		537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewCell.swift; sourceTree = "<group>"; };
 		537E30522E4B9585008258D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PaymentsTableViewCell.xib; sourceTree = "<group>"; };
 		537E30552E4B9585008258D1 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/PaymentsTableViewCell.xcstrings; sourceTree = "<group>"; };
+		53938E4A2E8C5D6300DB5697 /* OfferDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsVC.swift; sourceTree = "<group>"; };
 		53B156952E4A5395007B823E /* AboutSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSystemVC.swift; sourceTree = "<group>"; };
 		53B156972E4A9917007B823E /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
 		53B156992E4A996A007B823E /* UILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
@@ -292,6 +296,8 @@
 				4393BD812E2B7EE600E956A9 /* MaintenanceRequestDetailsVC.swift */,
 				4393BD832E2C09F500E956A9 /* VisitRequestDetailsVC.swift */,
 				53B156972E4A9917007B823E /* PaymentsVC.swift */,
+				53938E4A2E8C5D6300DB5697 /* OfferDetailsVC.swift */,
+				531171892E8D6BE5003D3C0F /* NotificationDetailsVC.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -601,6 +607,7 @@
 				437167E92E1492A500CDA246 /* VisitRequests.swift in Sources */,
 				433F080E2DF3934800667A73 /* AppDelegate.swift in Sources */,
 				431DAB5D2E0555A600A4D12A /* Request.swift in Sources */,
+				5311718A2E8D6BE5003D3C0F /* NotificationDetailsVC.swift in Sources */,
 				433F080F2DF3934800667A73 /* SceneDelegate.swift in Sources */,
 				43DA278B2E158F51003E847E /* VisitRequestsVC.swift in Sources */,
 				4393BD842E2C09F500E956A9 /* VisitRequestDetailsVC.swift in Sources */,
@@ -624,6 +631,7 @@
 				43C067F82E10ABE600E4E5C4 /* Apartments.swift in Sources */,
 				43C067E92E1091FF00E4E5C4 /* MaintenanceResponse.swift in Sources */,
 				53D182162E461A5C00ED7977 /* UIApplicationEx.swift in Sources */,
+				53938E4B2E8C5D6300DB5697 /* OfferDetailsVC.swift in Sources */,
 				433F083D2DF3954200667A73 /* ProfileVC.swift in Sources */,
 				433F083E2DF3954200667A73 /* TabBarVC.swift in Sources */,
 				433F083F2DF3954200667A73 /* TechnicalSupportVC.swift in Sources */,

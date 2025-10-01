@@ -123,6 +123,7 @@ class TechnicalSupportVC: UIViewController {
         
     }
     
+
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         ticketConstraint.constant = ticketCollctionView.contentSize.height
@@ -237,6 +238,7 @@ extension TechnicalSupportVC {
     }
     
     func sentSupportTrchnical(name : String , email : String , mobileNumber : String , content : String ,  typeProblem : String){
+        
         WebService.shared.sendRequest(
             url: Request.contacts,
             params: [
@@ -252,11 +254,16 @@ extension TechnicalSupportVC {
                 switch result {
                 case .success(let success):
                     print(success.code)
-                    ProgressHUD.succeed(success.message)
+//                    print("Success message: \(success.message)")
+                    ProgressHUD.succeed("Request sent successfully".loclize_)
                     DispatchQueue.main.async {
                         self.contacts.removeAll()
                         self.getTickets()
                     }
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+                        self.pop()
+                    })
                     
                 case .failure(let failure):
                     

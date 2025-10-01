@@ -85,7 +85,21 @@ extension NotifcationsVC : UITableViewDelegate , UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 150
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        
+        let notification = notifcationsArray[indexPath.row]
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NotificationDetailsVC") as? NotificationDetailsVC
+        
+        vc?.notification = notification
+        
+        vc?.push()
+        
     }
     
 }

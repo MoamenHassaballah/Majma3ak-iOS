@@ -14,12 +14,14 @@ class WebService: NSObject {
         responseType: T.Type,
         completion: @escaping (Result<T, Error>) -> Void)
     {
+        let lang = UserProfile.shared.currentAppleLanguage()
         var headers: HTTPHeaders = [:]
         if isAuth {
             if !Helper.access_token.isEmpty {
                 headers.add(name: "Authorization", value: "Bearer \(Helper.access_token)")
             }
             headers.add(name: "Accept", value: "application/json")
+            headers.add(name: "Accept-Language", value:lang)
         }
         
         let httpMethod: HTTPMethod

@@ -195,4 +195,9 @@
 "loading.." = "جارٍ التحميل..";
 
 
-"My Test Text" = "My Test Text In Arabic";
+"Request sent successfully" = "تم إرسال الطلب بنجاح";
+
+"sent" = "تم الإرسال";
+"Sent At:" = "تاريخ الإرسال:";
+"Channel:" = "القناة:";
+"Status:" = "الحالة:";

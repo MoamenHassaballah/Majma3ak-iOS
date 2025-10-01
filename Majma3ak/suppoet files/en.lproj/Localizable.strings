@@ -215,5 +215,11 @@ System Goals:
 "loading.." = "loading..";
 
 
+"Request sent successfully" = "Request sent successfully";
 
-"My Test Text" = "My Test Text In English";
+"sent" = "sent";
+"Sent At:" = "Sent At:";
+"Channel:" = "Channel:";
+"Status:" = "Status:";
+
+

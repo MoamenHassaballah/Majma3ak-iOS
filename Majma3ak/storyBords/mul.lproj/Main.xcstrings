@@ -450,6 +450,18 @@
         }
       }
     },
+    "6tp-iE-2Aw.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"6tp-iE-2Aw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
+          }
+        }
+      }
+    },
     "6W5-x4-9Pm.text" : {
       "comment" : "Class = \"UILabel\"; text = \"Enter your mobile number so that you can continue\"; ObjectID = \"6W5-x4-9Pm\";",
       "extractionState" : "extracted_with_value",
@@ -814,6 +826,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "01098765432"
+          }
+        }
+      }
+    },
+    "693-Pu-3ak.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"693-Pu-3ak\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
           }
         }
       }
@@ -1209,6 +1233,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جۆری کێشەکە"
+          }
+        }
+      }
+    },
+    "cas-f4-klH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"sep 4, 2025\"; ObjectID = \"cas-f4-klH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "sep 4, 2025"
           }
         }
       }
@@ -1727,6 +1763,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هەڵوەشاندنەوەی داواکاری"
+          }
+        }
+      }
+    },
+    "eNg-55-vQF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"eNg-55-vQF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "EPq-nM-pzB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"EPq-nM-pzB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
           }
         }
       }
@@ -2856,6 +2916,12 @@
       "comment" : "Class = \"UILabel\"; text = \"New Offer Available\"; ObjectID = \"KeP-lm-F6b\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض جديد متاح"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -3050,6 +3116,12 @@
       "comment" : "Class = \"UILabel\"; text = \"Attach ID photo (optional)\"; ObjectID = \"lUP-eQ-qI8\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرفاق صورة الهوية (اختياري)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -3342,6 +3414,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لەسەر سیستەم"
+          }
+        }
+      }
+    },
+    "NnJ-ep-Lfn.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Offer Details\"; ObjectID = \"NnJ-ep-Lfn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الاعلان"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Offer Details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکاری پێشکەشکراو"
           }
         }
       }
@@ -3646,6 +3742,30 @@
         }
       }
     },
+    "oNo-9N-ybv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"oNo-9N-ybv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "oPS-8c-UAr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"oPS-8c-UAr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
     "peF-Q7-xlc.text" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3919,6 +4039,30 @@
         }
       }
     },
+    "rCW-z0-dhp.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Notification Details\"; ObjectID = \"rCW-z0-dhp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الإشعار"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notification Details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکارییەکانی ئاگادارکردنەوە"
+          }
+        }
+      }
+    },
     "RHJ-B8-698.title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4145,6 +4289,18 @@
         }
       }
     },
+    "SKE-uQ-y4m.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"SKE-uQ-y4m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
     "sTb-ms-GhG.text" : {
       "comment" : "Class = \"UILabel\"; text = \"Fix Tellll\"; ObjectID = \"sTb-ms-GhG\";",
       "extractionState" : "extracted_with_value",
@@ -4356,6 +4512,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        }
+      }
+    },
+    "UdP-Ym-jst.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Item\"; ObjectID = \"UdP-Ym-jst\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item"
           }
         }
       }
@@ -4586,6 +4754,12 @@
       "comment" : "Class = \"UILabel\"; text = \"Check out our latest offer in the app!\"; ObjectID = \"w9p-mC-PZ3\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطلع على أحدث عروضنا في التطبيق!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -4908,6 +5082,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Button"
+          }
+        }
+      }
+    },
+    "YcI-f5-65K.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"YcI-f5-65K\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
           }
         }
       }
