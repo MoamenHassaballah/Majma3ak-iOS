@@ -54,7 +54,12 @@ extension NotifcationsVC {
                 DispatchQueue.main.async {
                     self.loader.stopAnimating()
 
-                    self.notifcationsArray = notifications
+                    if self.notifcationsArray.isEmpty {
+                        self.notifcationsArray = notifications
+                    } else {
+                        self.notifcationsArray.append(contentsOf: notifications)
+                    }
+                    
                     self.tableView.reloadData()
                 }
             case .failure(let failure):
@@ -63,6 +68,39 @@ extension NotifcationsVC {
 
                 }
                 print(failure.localizedDescription)
+            }
+        }
+        
+        
+        
+        WebService.shared.sendRequest(url: Request.complextNotifications + "per_page=10&page=1",
+                                      method: .get,
+                                      isAuth: true,
+                                      responseType: ComplexNotificationResponse.self) { result in
+            switch result {
+            case .success(let success):
+                let notifications = success.data.data
+                DispatchQueue.main.async {
+                    self.loader.stopAnimating()
+
+                    
+                    let list = notifications.map { complexNotification in
+                        NotificationModel(id: complexNotification.id, title: complexNotification.title, content: complexNotification.content, channel: complexNotification.channel, status: complexNotification.status, sentAt: complexNotification.sentAt, createdAt: complexNotification.createdAt, updatedAt: complexNotification.updatedAt)
+                    }
+                    
+                    if self.notifcationsArray.isEmpty {
+                        self.notifcationsArray = list
+                    } else {
+                        self.notifcationsArray.append(contentsOf: list)
+                    }
+                    self.tableView.reloadData()
+                }
+            case .failure(let failure):
+                DispatchQueue.main.async {
+                    self.loader.stopAnimating()
+
+                }
+                print("Error getting complex notifications: " , failure.localizedDescription)
             }
         }
     }

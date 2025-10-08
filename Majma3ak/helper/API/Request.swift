@@ -39,6 +39,7 @@ struct Request {
     static let getProfileData = url + "profile"
     static let contacts = url + "contacts"
     static let notifications = url + "notifications?"
+    static let complextNotifications = url + "complex-notifications?"
     static let complexes = url + "residential-complexes"
     static let payments = url + "payments"
 
