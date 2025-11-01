@@ -17,7 +17,7 @@ struct ProfileResponse: Codable {
 // MARK: - DataClass
 struct DataClassProfileUSer: Codable {
     let id: Int
-    let name, email, phone, phoneVerifiedAt: String
+    let name, email, phone, phoneVerifiedAt: String?
     let profilePciture: String?
     let createdAt, updatedAt: String
 

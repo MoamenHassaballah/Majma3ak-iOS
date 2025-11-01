@@ -34,8 +34,7 @@ class SendOTPViewController: UIViewController {
     }
     
     @IBAction func submitButtonTaped(_ sender: Any) {
-        sendBtn.setTitle("", for: .normal)
-        loader.startAnimating()
+        
         guard let mobileNumber = mobiletNumberxt.text , !mobileNumber.isEmpty else {
             ProgressHUD.image("mobile_required".loclize_ ,image: UIImage(systemName: "minus.circle.fill"))
             return
@@ -47,9 +46,15 @@ class SendOTPViewController: UIViewController {
         }
         
         
+        sendBtn.setTitle("", for: .normal)
+        loader.startAnimating()
+        
+        
+        let fullNumber = "+964\(mobileNumber)"
+        
         WebService.shared.sendRequest(url: Request.forgotPassword,
                                       params: [
-                                        "phone":mobileNumber
+                                        "phone":fullNumber
                                       ],
                                       method: .post,
                                       isAuth: false,

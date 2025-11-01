@@ -101,7 +101,7 @@ class RegisterVC: UIViewController, BEMCheckBoxDelegate  {
                 }
 
             case .failure(let failure):
-                print(failure)
+                print("Error getting complex data:", failure)
             }
         }
     }

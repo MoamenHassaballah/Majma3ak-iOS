@@ -3183,6 +3183,18 @@
         }
       }
     },
+    "MBd-Sb-qPP.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"+964\"; ObjectID = \"MBd-Sb-qPP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+964"
+          }
+        }
+      }
+    },
     "mEY-FM-7HT.text" : {
       "comment" : "Class = \"UILabel\"; text = \"123456\"; ObjectID = \"mEY-FM-7HT\";",
       "extractionState" : "extracted_with_value",
@@ -4529,13 +4541,13 @@
       }
     },
     "UL4-UB-07H.placeholder" : {
-      "comment" : "Class = \"UITextField\"; placeholder = \"+781592881713\"; ObjectID = \"UL4-UB-07H\";",
+      "comment" : "Class = \"UITextField\"; placeholder = \"592661915\"; ObjectID = \"UL4-UB-07H\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "+781592881713"
+            "value" : "592661915"
           }
         }
       }

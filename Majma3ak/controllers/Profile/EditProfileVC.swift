@@ -171,9 +171,9 @@ extension EditProfileVC {
                 }
                 
                 // Store original values
-                 self.originalName = user.name
-                 self.originalEmail = user.email
-                self.originalPhone = user.phone
+                 self.originalName = user.name ?? ""
+                 self.originalEmail = user.email ?? ""
+                self.originalPhone = user.phone ??  ""
                 
             case .failure(let failure):
                 self.loadingView.isHidden = true

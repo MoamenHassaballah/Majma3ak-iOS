@@ -383,6 +383,7 @@
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Log in">
+                                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                                     <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="12"/>
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
@@ -530,7 +531,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pzl-06-pxd">
-                                                <rect key="frame" x="20" y="39" width="353" height="653.33333333333348"/>
+                                                <rect key="frame" x="20" y="39" width="353" height="653.33333333333337"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u0S-aY-9ra">
                                                         <rect key="frame" x="0.0" y="0.0" width="353" height="83"/>
@@ -1070,6 +1071,7 @@
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Create an account">
+                                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                                     <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="12"/>
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
@@ -3411,6 +3413,7 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="send Request">
+                                            <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                             <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="14"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -3790,6 +3793,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="send Request">
+                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                     <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="14"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -4721,6 +4725,7 @@
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="save">
+                                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                                     <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="12"/>
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
@@ -4921,19 +4926,55 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-RY-1uG">
                                                 <rect key="frame" x="0.0" y="33" width="353" height="50"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="k2Y-Ac-Tjg">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k2Y-Ac-Tjg">
                                                         <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="+781592881713" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UL4-UB-07H">
-                                                                <rect key="frame" x="10" y="0.0" width="333" height="50"/>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="33y-sb-9e8">
+                                                                <rect key="frame" x="10" y="0.0" width="90" height="50"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+964" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBd-Sb-qPP">
+                                                                        <rect key="frame" x="16.666666666666664" y="17" width="28.333333333333336" height="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="rajdhaniLight">
+                                                                                <real key="value" value="11"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </label>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Iraq-Flag-9" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-rL-bY1">
+                                                                        <rect key="frame" x="50" y="10" width="30" height="30"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="4CH-rL-bY1" secondAttribute="height" multiplier="1:1" id="1mw-Rr-Jud"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="bK0-VA-UWa"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" red="0.95294117649999999" green="0.94901960780000005" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="90" id="8Qb-01-24h"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="MBd-Sb-qPP" secondAttribute="bottom" constant="15" id="BOS-bU-hZv"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="4CH-rL-bY1" secondAttribute="bottom" constant="10" id="Ub7-RL-0nY"/>
+                                                                    <constraint firstItem="4CH-rL-bY1" firstAttribute="leading" secondItem="MBd-Sb-qPP" secondAttribute="trailing" constant="5" id="WfW-Aj-y9A"/>
+                                                                    <constraint firstItem="MBd-Sb-qPP" firstAttribute="top" secondItem="33y-sb-9e8" secondAttribute="top" constant="17" id="cjd-Pg-nS2"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="4CH-rL-bY1" secondAttribute="trailing" constant="10" id="wCs-WU-uZm"/>
+                                                                    <constraint firstItem="4CH-rL-bY1" firstAttribute="top" secondItem="33y-sb-9e8" secondAttribute="top" constant="10" id="ziz-qN-Mbx"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="592661915" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UL4-UB-07H">
+                                                                <rect key="frame" x="110" y="0.0" width="233" height="50"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                        <real key="value" value="0.0"/>
+                                                                        <real key="value" value="3"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                         <real key="value" value="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                        <color key="value" red="0.95294117649999999" green="0.95686274510000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
@@ -4941,7 +4982,7 @@
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="10" bottom="0.0" trailing="10"/>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="k2Y-Ac-Tjg" secondAttribute="bottom" id="7hM-X8-inl"/>
                                                     <constraint firstItem="k2Y-Ac-Tjg" firstAttribute="leading" secondItem="zxY-RY-1uG" secondAttribute="leading" id="jaC-Rp-K7s"/>
@@ -4975,6 +5016,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="send request to reset the password">
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                     <fontDescription key="titleFontDescription" name="FFShamelFamily-SansOneBold" family="FF Shamel Family" pointSize="14"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -5187,6 +5229,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="I Agree">
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
@@ -5874,6 +5917,7 @@
                                                     <constraint firstAttribute="height" constant="40" id="JXV-pE-SUS"/>
                                                 </constraints>
                                                 <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
@@ -6241,6 +6285,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
@@ -6782,16 +6827,16 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
-            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

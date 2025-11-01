@@ -148,6 +148,7 @@ class OTPVC  : UIViewController  {
         stackView.spacing = 10
         stackView.distribution = .fillEqually
         stackView.axis = .horizontal
+        stackView.semanticContentAttribute = .forceLeftToRight
         view.addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
