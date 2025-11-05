@@ -179,9 +179,9 @@ extension HomeVC {
             switch result {
             case .success(let success):
                 let user = success.data
-                self.helloLabel.text = "\("Hello".loclize_) \(user.name)"
+                self.helloLabel.text = "\("Hello".loclize_) \(user.name ?? "")"
                 if let profilePic = user.profilePciture, !profilePic.isEmpty {
-                    self.profileImage.kf.setImage(with: URL(string: "\(Request.baseUrl)\(profilePic)")!)
+                    self.profileImage.kf.setImage(with: URL(string: "\(profilePic)")!)
                 }
 //                self.nameLbl.text = user.
                 

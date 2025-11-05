@@ -42,6 +42,7 @@ struct Request {
     static let complextNotifications = url + "complex-notifications?"
     static let complexes = url + "residential-complexes"
     static let payments = url + "payments"
+    static let documents = url + "documents?"
 
     
     

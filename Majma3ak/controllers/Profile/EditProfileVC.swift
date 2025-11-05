@@ -70,15 +70,19 @@ class EditProfileVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
             ProgressHUD.success("full_name_required".loclize_,image: UIImage(systemName: "xmark.octagon"))
             return
         }
-        guard let  currentEmail =  emailtxt.text , !currentEmail.isEmpty else  {
-            ProgressHUD.success("email_required".loclize_,image: UIImage(systemName: "xmark.octagon"))
-            return
-        }
+        
+        let currentEmail =  emailtxt.text ?? ""
+        
+//        guard let  currentEmail =  emailtxt.text , !currentEmail.isEmpty else  {
+//            ProgressHUD.success("email_required".loclize_,image: UIImage(systemName: "xmark.octagon"))
+//            return
+//        }
          guard let currentPhone = phoneNumbertxt.text , !currentPhone.isEmpty else {
              ProgressHUD.success("mobile_required".loclize_,image: UIImage(systemName: "xmark.octagon"))
             return
         }
-        if !isvalidateEmail(enteredEmail: )(currentEmail) {
+        
+        if !currentEmail.isEmpty && !isvalidateEmail(enteredEmail: )(currentEmail) {
             ProgressHUD.success("invalid_email".loclize_,image: UIImage(systemName: "xmark.octagon"))
             return
         }
@@ -167,7 +171,7 @@ extension EditProfileVC {
                 self.phoneNumbertxt.text = user.phone
                 
                 if let profilePic = user.profilePciture {
-                    self.personalImage.kf.setImage(with: URL(string: "\(Request.baseUrl)\(profilePic)")!)
+                    self.personalImage.kf.setImage(with: URL(string: "\(profilePic)")!)
                 }
                 
                 // Store original values

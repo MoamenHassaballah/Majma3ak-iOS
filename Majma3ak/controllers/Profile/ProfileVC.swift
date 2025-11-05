@@ -158,7 +158,7 @@ extension ProfileVC {
                 self.emailLbl.text = user.email
                 self.phoneLbl.text = user.phone
                 if let profilePic = user.profilePciture, !profilePic.isEmpty {
-                    self.personalImage.kf.setImage(with: URL(string: "\(Request.baseUrl)\(profilePic)")!)
+                    self.personalImage.kf.setImage(with: URL(string: "\(profilePic)")!)
                 }
 //                self.nameLbl.text = user.
                 

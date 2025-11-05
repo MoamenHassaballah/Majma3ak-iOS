@@ -250,6 +250,12 @@ class MoreVC: UIViewController {
         vc?.push()
     }
     
+    
+    @IBAction func onFIlesPressed(_ sender: Any) {
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "DocumentsVC") as? DocumentsVC
+        vc?.push()
+    }
+    
     @IBAction func onTermsClick(_ sender: Any) {
         let vc = UIStoryboard.mainStoryBoard.instantiateViewController(identifier: "TermsOfServiceVC") as? TermsOfServiceVC
               vc?.push()
@@ -411,7 +417,7 @@ extension MoreVC {
             switch result {
             case .success(let success):
                 let user = success.data
-                self.helloLabel.text = "\("Hello".loclize_) \(user.name)"
+                self.helloLabel.text = "\("Hello".loclize_) \(user.name ?? "")"
                 if let profilePic = user.profilePciture, !profilePic.isEmpty {
                     self.profileImage.kf.setImage(with: URL(string: "\(Request.baseUrl)\(profilePic)")!)
                 }

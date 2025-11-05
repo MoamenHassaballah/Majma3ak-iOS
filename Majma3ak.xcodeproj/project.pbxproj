@@ -74,6 +74,10 @@
 		43FD19642E16AD9C00C784C2 /* ContactsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD19632E16AD9C00C784C2 /* ContactsResponse.swift */; };
 		43FD19672E173FE500C784C2 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD19662E173FE500C784C2 /* EditProfileVC.swift */; };
 		5311718A2E8D6BE5003D3C0F /* NotificationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531171892E8D6BE5003D3C0F /* NotificationDetailsVC.swift */; };
+		531559122EB94BDC003AA034 /* DocumentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531559112EB94BDC003AA034 /* DocumentResponse.swift */; };
+		531559152EB95480003AA034 /* DocumentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531559142EB95480003AA034 /* DocumentsVC.swift */; };
+		5315591C2EB96307003AA034 /* DocumentCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5315591A2EB96307003AA034 /* DocumentCardCell.swift */; };
+		5315591D2EB96307003AA034 /* DocumentCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5315591B2EB96307003AA034 /* DocumentCardCell.xib */; };
 		5357B37F2E496897004185BE /* TermsOfServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357B37E2E496897004185BE /* TermsOfServiceVC.swift */; };
 		537E304D2E4B8F1A008258D1 /* PaymentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */; };
 		537E30512E4B9495008258D1 /* PaymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */; };
@@ -166,6 +170,10 @@
 		43FD19662E173FE500C784C2 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		4CAC8C9B69F7A78B4ED81253 /* Pods-Majma3ak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Majma3ak.debug.xcconfig"; path = "Target Support Files/Pods-Majma3ak/Pods-Majma3ak.debug.xcconfig"; sourceTree = "<group>"; };
 		531171892E8D6BE5003D3C0F /* NotificationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailsVC.swift; sourceTree = "<group>"; };
+		531559112EB94BDC003AA034 /* DocumentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentResponse.swift; sourceTree = "<group>"; };
+		531559142EB95480003AA034 /* DocumentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsVC.swift; sourceTree = "<group>"; };
+		5315591A2EB96307003AA034 /* DocumentCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCardCell.swift; sourceTree = "<group>"; };
+		5315591B2EB96307003AA034 /* DocumentCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentCardCell.xib; sourceTree = "<group>"; };
 		5357B37E2E496897004185BE /* TermsOfServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceVC.swift; sourceTree = "<group>"; };
 		537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsResponse.swift; sourceTree = "<group>"; };
 		537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewCell.swift; sourceTree = "<group>"; };
@@ -239,6 +247,7 @@
 				43388BDC2E0C3CEE00E0B3DF /* SliderData.swift */,
 				431DAB602E06AAF600A4D12A /* user_model.swift */,
 				43388BDA2E0C3B8200E0B3DF /* OfferModel.swift */,
+				531559112EB94BDC003AA034 /* DocumentResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -285,6 +294,7 @@
 		433F08162DF3937000667A73 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				531559132EB95457003AA034 /* Documents */,
 				5357B37D2E49686E004185BE /* Terms & About */,
 				43FD19652E173FB700C784C2 /* Profile */,
 				43DA27892E158F1B003E847E /* Visit requests */,
@@ -352,6 +362,8 @@
 				43ED938C2E1A492400EAB8E6 /* RequestVisitCollectionViewCell.xib */,
 				537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */,
 				537E30532E4B9585008258D1 /* PaymentsTableViewCell.xib */,
+				5315591A2EB96307003AA034 /* DocumentCardCell.swift */,
+				5315591B2EB96307003AA034 /* DocumentCardCell.xib */,
 			);
 			path = nibs;
 			sourceTree = "<group>";
@@ -450,6 +462,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		531559132EB95457003AA034 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				531559142EB95480003AA034 /* DocumentsVC.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
 		5357B37D2E49686E004185BE /* Terms & About */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +566,7 @@
 				43388BEE2E0DFB1B00E0B3DF /* Main.storyboard in Resources */,
 				431DAB632E07173000A4D12A /* VerificationVC.swift in Resources */,
 				43FD19612E1658DD00C784C2 /* PreviousTicktCollectionViewCell.xib in Resources */,
+				5315591D2EB96307003AA034 /* DocumentCardCell.xib in Resources */,
 				43388BE72E0DF78D00E0B3DF /* Localizable.strings in Resources */,
 				43ED93912E1A492D00EAB8E6 /* RequestCollectionViewCell.xib in Resources */,
 				43FD195B2E16505400C784C2 /* FFShamelFamily-SansOneBold.ttf in Resources */,
@@ -618,6 +639,7 @@
 				433F08102DF3934800667A73 /* ViewController.swift in Sources */,
 				433F08272DF3946900667A73 /* StringEx.swift in Sources */,
 				539CDD9E2E9715E000DE15DE /* ComplexNotificationResponse.swift in Sources */,
+				5315591C2EB96307003AA034 /* DocumentCardCell.swift in Sources */,
 				433F08322DF3952B00667A73 /* LoginVC.swift in Sources */,
 				537E30512E4B9495008258D1 /* PaymentsTableViewCell.swift in Sources */,
 				433F081F2DF3940B00667A73 /* MainNaigationController.swift in Sources */,
@@ -628,6 +650,7 @@
 				53B156962E4A5395007B823E /* AboutSystemVC.swift in Sources */,
 				4393BD802E2AEB1100E956A9 /* VerifiedOtpResponse.swift in Sources */,
 				43C067EB2E10A2A200E4E5C4 /* offerCell.swift in Sources */,
+				531559122EB94BDC003AA034 /* DocumentResponse.swift in Sources */,
 				437167E52E13313B00CDA246 /* myHelpers.swift in Sources */,
 				433F083C2DF3954200667A73 /* AddMaintenanceRequestVC.swift in Sources */,
 				43FD195E2E16562600C784C2 /* FontApplicable.swift in Sources */,
@@ -649,6 +672,7 @@
 				43916FD02E223502009C605C /* APIResponse.swift in Sources */,
 				43388BDB2E0C3B8200E0B3DF /* OfferModel.swift in Sources */,
 				43DA278D2E158F5F003E847E /* MaintenanceRequestsVC.swift in Sources */,
+				531559152EB95480003AA034 /* DocumentsVC.swift in Sources */,
 				43388BDF2E0C646A00E0B3DF /* ComplexModel.swift in Sources */,
 				53B1569A2E4A996E007B823E /* UILabelEx.swift in Sources */,
 				53F8F5772E4CEBE800A0502F /* TermOfServiceAlertViewController.swift in Sources */,
@@ -755,7 +779,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;
@@ -793,7 +817,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;
