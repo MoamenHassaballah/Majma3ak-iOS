@@ -89,6 +89,7 @@
 		53B1569A2E4A996E007B823E /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156992E4A996A007B823E /* UILabelEx.swift */; };
 		53C25D592E39745A000B4A1B /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C25D582E397455000B4A1B /* UIColorEx.swift */; };
 		53D182162E461A5C00ED7977 /* UIApplicationEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D182152E461A5700ED7977 /* UIApplicationEx.swift */; };
+		53EA30DB2EBBA8540044AA94 /* FileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA30DA2EBBA8540044AA94 /* FileDetailsVC.swift */; };
 		53F8F5772E4CEBE800A0502F /* TermOfServiceAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8F5762E4CEBE800A0502F /* TermOfServiceAlertViewController.swift */; };
 		AB8F55F42FC672F572823F4E /* Pods_Majma3ak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C55B9771E8453E6643054 /* Pods_Majma3ak.framework */; };
 /* End PBXBuildFile section */
@@ -186,6 +187,7 @@
 		53B156992E4A996A007B823E /* UILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
 		53C25D582E397455000B4A1B /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 		53D182152E461A5700ED7977 /* UIApplicationEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationEx.swift; sourceTree = "<group>"; };
+		53EA30DA2EBBA8540044AA94 /* FileDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailsVC.swift; sourceTree = "<group>"; };
 		53F8F5762E4CEBE800A0502F /* TermOfServiceAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermOfServiceAlertViewController.swift; sourceTree = "<group>"; };
 		738C55B9771E8453E6643054 /* Pods_Majma3ak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Majma3ak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA12BD630BFB2D768FE76BFA /* Pods-Majma3ak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Majma3ak.release.xcconfig"; path = "Target Support Files/Pods-Majma3ak/Pods-Majma3ak.release.xcconfig"; sourceTree = "<group>"; };
@@ -466,6 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				531559142EB95480003AA034 /* DocumentsVC.swift */,
+				53EA30DA2EBBA8540044AA94 /* FileDetailsVC.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				433F082B2DF3949B00667A73 /* UIViewEx.swift in Sources */,
 				53B156962E4A5395007B823E /* AboutSystemVC.swift in Sources */,
 				4393BD802E2AEB1100E956A9 /* VerifiedOtpResponse.swift in Sources */,
+				53EA30DB2EBBA8540044AA94 /* FileDetailsVC.swift in Sources */,
 				43C067EB2E10A2A200E4E5C4 /* offerCell.swift in Sources */,
 				531559122EB94BDC003AA034 /* DocumentResponse.swift in Sources */,
 				437167E52E13313B00CDA246 /* myHelpers.swift in Sources */,
@@ -779,7 +783,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 23.1;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;
@@ -817,7 +821,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 22;
+				CURRENT_PROJECT_VERSION = 23.1;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;

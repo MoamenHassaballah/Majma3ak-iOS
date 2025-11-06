@@ -105,6 +105,7 @@ private class PrivateBundle: Bundle, @unchecked Sendable {
 extension ProfileVC {
     func setupView(){
         self.MainStack.isHidden = true
+        nameLbl.text = ""
         self.loader.startAnimating()
         setShadowViews()
         let backItem = UIBarButtonItem()

@@ -63,47 +63,47 @@ class TechnicalSupportVC: UIViewController {
     }
     @IBAction func onTapSendRequest(_ sender: Any) {
         guard let fullName = nametxt.text , !fullName.isEmpty else {
-            ProgressHUD.image( "الاسم مطلوب" ,image: UIImage(systemName: "minus.circle.fill"))
+            ProgressHUD.image( "الاسم مطلوب".loclize_ ,image: UIImage(systemName: "minus.circle.fill"))
             return
         }
         
-        guard let email = emailtxt.text , !email.isEmpty else {
-            ProgressHUD.image("الإيميل مطلوب" ,image: UIImage(systemName: "minus.circle.fill"))
-
-            return
-        }
+//        guard let email = emailtxt.text , !email.isEmpty else {
+//            ProgressHUD.image("الإيميل مطلوب" ,image: UIImage(systemName: "minus.circle.fill"))
+//
+//            return
+//        }
         
         
-        guard isvalidateEmail(enteredEmail: email) else {
-            ProgressHUD.image("الرجاء إدخال إيميل صحيح" ,image: UIImage(systemName: "minus.circle.fill"))
-            return
-        }
+//        guard isvalidateEmail(enteredEmail: email) else {
+//            ProgressHUD.image("الرجاء إدخال إيميل صحيح" ,image: UIImage(systemName: "minus.circle.fill"))
+//            return
+//        }
+//        
+//        guard let mobileNumber = phonetxt.text , !mobileNumber.isEmpty else {
+//            ProgressHUD.image("رقم الموبايل مطلوب" ,image: UIImage(systemName: "minus.circle.fill"))
+//            return
+//        }
         
-        guard let mobileNumber = phonetxt.text , !mobileNumber.isEmpty else {
-            ProgressHUD.image("رقم الموبايل مطلوب" ,image: UIImage(systemName: "minus.circle.fill"))
-            return
-        }
-        
-        guard isValidInternationalPhoneNumber(mobileNumber) else {
-            ProgressHUD.image("الرجاء إدخال رقم صحيح مع مقدمة الدولة" ,image: UIImage(systemName: "minus.circle.fill"))
-            return
-        }
+//        guard isValidInternationalPhoneNumber(mobileNumber) else {
+//            ProgressHUD.image("الرجاء إدخال رقم صحيح مع مقدمة الدولة" ,image: UIImage(systemName: "minus.circle.fill"))
+//            return
+//        }
         
         guard let content = contenttxt.text , !content.isEmpty else {
-            ProgressHUD.image("محتوى المشكلة مظلوب" ,image: UIImage(systemName: "minus.circle.fill"))
+            ProgressHUD.image("محتوى المشكلة مطلوب".loclize_ ,image: UIImage(systemName: "minus.circle.fill"))
             return
         }
         
-        guard let typeProblem = typeProblemtxt.text , !typeProblem.isEmpty else {
-            ProgressHUD.image("نوع الشكوى مطللوب" ,image: UIImage(systemName: "minus.circle.fill"))
-            return
-        }
+//        guard let typeProblem = typeProblemtxt.text , !typeProblem.isEmpty else {
+//            ProgressHUD.image("نوع الشكوى مطللوب" ,image: UIImage(systemName: "minus.circle.fill"))
+//            return
+//        }
         
         sentSupportTrchnical(name: fullName,
-                             email: email,
-                             mobileNumber: mobileNumber,
+                             email: "",
+                             mobileNumber: "",
                              content: content,
-                             typeProblem: typeProblem)
+                             typeProblem: "")
         
         
         
@@ -238,7 +238,7 @@ extension TechnicalSupportVC {
     }
     
     func sentSupportTrchnical(name : String , email : String , mobileNumber : String , content : String ,  typeProblem : String){
-        
+        ProgressHUD.progress("loading..".loclize_, 1.0)
         WebService.shared.sendRequest(
             url: Request.contacts,
             params: [

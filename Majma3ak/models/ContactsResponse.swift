@@ -15,9 +15,9 @@ struct ContactsData: Codable {
 struct Contact: Codable {
     let id: Int
     let name: String
-    let email: String
-    let phone: String
-    let type: String
+    let email: String?
+    let phone: String?
+    let type: String?
     let content: String
     let status: String
     let user: UserV

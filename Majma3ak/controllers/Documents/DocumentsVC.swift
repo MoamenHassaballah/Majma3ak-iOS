@@ -91,6 +91,9 @@ extension DocumentsVC: UITableViewDataSource, UITableViewDelegate {
         
         cell.onTap = {
             print(document.description)
+            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "FileDetailsVC") as? FileDetailsVC
+            vc?.document = document
+            vc?.push()
         }
         
         return cell

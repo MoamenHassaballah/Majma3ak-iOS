@@ -134,13 +134,13 @@
       }
     },
     "1e6-Zk-oLX.text" : {
-      "comment" : "Class = \"UILabel\"; text = \"محمد علي حسن\"; ObjectID = \"1e6-Zk-oLX\";",
+      "comment" : "Class = \"UILabel\"; text = \"username\"; ObjectID = \"1e6-Zk-oLX\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "محمد علي حسن"
+            "value" : "username"
           }
         }
       }
@@ -1425,6 +1425,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SVG، PNG، JPG یان GIF (زۆرترین 800x400px)"
+          }
+        }
+      }
+    },
+    "D3Y-HC-Uni.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"File Details\"; ObjectID = \"D3Y-HC-Uni\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "File Details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکارییەکانی فایل"
           }
         }
       }
@@ -3161,25 +3185,25 @@
       }
     },
     "lUP-eQ-qI8.text" : {
-      "comment" : "Class = \"UILabel\"; text = \"Attach ID photo (optional)\"; ObjectID = \"lUP-eQ-qI8\";",
+      "comment" : "Class = \"UILabel\"; text = \"Attach photo (optional)\"; ObjectID = \"lUP-eQ-qI8\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إرفاق صورة الهوية (اختياري)"
+            "value" : "إرفاق صورة (اختياري)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Attach ID photo (optional)"
+            "value" : "Attach photo (optional)"
           }
         },
         "ku" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "پاشكردنی وێنەی ناسنامە (هەڵبژاردەیی"
+            "state" : "translated",
+            "value" : "پاشكردنی وێنەی (هەڵبژاردەیی"
           }
         }
       }
