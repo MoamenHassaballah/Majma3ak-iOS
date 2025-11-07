@@ -43,13 +43,13 @@ struct MetaData: Codable {
 struct ComplexNotificationModel: Codable {
     let id: Int
     let title, content: String
-    let complexAdminID: Int
-    let userID: Int?
-    let residentialComplexID: Int
+    let complexAdminID: String
+    let userID: String?
+    let residentialComplexID: String
     let channel: String
     let locale: String?
     let status: String
-    let sentAt, createdAt, updatedAt: String
+    let sentAt, createdAt, updatedAt: String?
 
     enum CodingKeys: String, CodingKey {
         case id, title, content
@@ -61,4 +61,5 @@ struct ComplexNotificationModel: Codable {
         case createdAt = "created_at"
         case updatedAt = "updated_at"
     }
+    
 }

@@ -12,7 +12,9 @@ class NotifcationsVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var loader: UIActivityIndicatorView!
     
-    var notifcationsArray : [NotificationModel] = []
+    var pushNotificationsArray : [NotificationModel] = []
+    var smsNotificationsArray : [NotificationModel] = []
+    var notificationSections : [String] = ["Push Notifications".loclize_, "SMS".loclize_]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,10 +56,20 @@ extension NotifcationsVC {
                 DispatchQueue.main.async {
                     self.loader.stopAnimating()
 
-                    if self.notifcationsArray.isEmpty {
-                        self.notifcationsArray = notifications
+                    let pushNotifications = notifications.filter({$0.channel == "push"})
+                    let smsNotifications = notifications.filter({$0.channel != "push"})
+                    
+                    if self.pushNotificationsArray.isEmpty {
+                        self.pushNotificationsArray = pushNotifications
                     } else {
-                        self.notifcationsArray.append(contentsOf: notifications)
+                        self.pushNotificationsArray.append(contentsOf: pushNotifications)
+                    }
+                    
+                    
+                    if self.smsNotificationsArray.isEmpty {
+                        self.smsNotificationsArray = smsNotifications
+                    } else {
+                        self.smsNotificationsArray.append(contentsOf: smsNotifications)
                     }
                     
                     self.tableView.reloadData()
@@ -85,14 +97,26 @@ extension NotifcationsVC {
 
                     
                     let list = notifications.map { complexNotification in
-                        NotificationModel(id: complexNotification.id, title: complexNotification.title, content: complexNotification.content, channel: complexNotification.channel, status: complexNotification.status, sentAt: complexNotification.sentAt, createdAt: complexNotification.createdAt, updatedAt: complexNotification.updatedAt)
+                        NotificationModel(id: complexNotification.id, title: complexNotification.title, content: complexNotification.content, channel: complexNotification.channel, status: complexNotification.status, sentAt: complexNotification.sentAt ?? "", createdAt: complexNotification.createdAt ?? "", updatedAt: complexNotification.updatedAt ?? "")
                     }
                     
-                    if self.notifcationsArray.isEmpty {
-                        self.notifcationsArray = list
+                    let pushNotifications = list.filter({$0.channel == "push"})
+                    let smsNotifications = list.filter({$0.channel != "push"})
+                    
+                    if self.pushNotificationsArray.isEmpty {
+                        self.pushNotificationsArray = pushNotifications
                     } else {
-                        self.notifcationsArray.append(contentsOf: list)
+                        self.pushNotificationsArray.append(contentsOf: pushNotifications)
                     }
+                    
+                    
+                    if self.smsNotificationsArray.isEmpty {
+                        self.smsNotificationsArray = smsNotifications
+                    } else {
+                        self.smsNotificationsArray.append(contentsOf: smsNotifications)
+                    }
+                    
+                    
                     self.tableView.reloadData()
                 }
             case .failure(let failure):
@@ -110,12 +134,20 @@ extension NotifcationsVC {
 
 extension NotifcationsVC : UITableViewDelegate , UITableViewDataSource {
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        notificationSections[section]
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        notificationSections.count
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return notifcationsArray.count
+        return section == 0 ? pushNotificationsArray.count : smsNotificationsArray.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell : NotifcationsTableViewCell = tableView.dequeueReusableCell(withIdentifier: NotifcationsTableViewCell.identifier, for: indexPath) as! NotifcationsTableViewCell
-        let notification = notifcationsArray[indexPath.row]
+        let notification = indexPath.section == 0 ? pushNotificationsArray[indexPath.row] : smsNotificationsArray[indexPath.row]
         cell.configure(with: notification)
         return cell
 
@@ -130,7 +162,7 @@ extension NotifcationsVC : UITableViewDelegate , UITableViewDataSource {
         
         
         
-        let notification = notifcationsArray[indexPath.row]
+        let notification = indexPath.section == 0 ? pushNotificationsArray[indexPath.row] : smsNotificationsArray[indexPath.row]
         
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NotificationDetailsVC") as? NotificationDetailsVC
         
@@ -138,6 +170,15 @@ extension NotifcationsVC : UITableViewDelegate , UITableViewDataSource {
         
         vc?.push()
         
+    }
+    
+    
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let header = view as? UITableViewHeaderFooterView {
+            header.textLabel?.applyCustomFont(14)
+            header.textLabel?.numberOfLines = 0
+            header.textLabel?.textColor = UIColor.darkGray
+        }
     }
     
 }
