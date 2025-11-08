@@ -8,7 +8,7 @@
 import UIKit
 import ProgressHUD
 
-class VisitRequestsVC : UIViewController ,UIScrollViewDelegate {
+class VisitRequestsVC : UIViewController , UIScrollViewDelegate {
     
     @IBOutlet weak var allRequestsCollectionView: UICollectionView!
     @IBOutlet weak var emptyStateLabel: UILabel!
@@ -192,6 +192,7 @@ extension VisitRequestsVC {
         }
     }
 }
+
 
 
 

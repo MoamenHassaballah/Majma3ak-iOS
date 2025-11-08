@@ -292,6 +292,7 @@ extension ProgressHUD {
 		labelStatus?.text = text
 		labelStatus?.font = fontStatus
 		labelStatus?.textColor = colorStatus
+        labelStatus?.applyCustomFont(14)
 		labelStatus?.isHidden = (text == nil) ? true : false
 	}
 }
@@ -596,4 +597,17 @@ extension ProgressHUD {
 		removeToolbar()
 		removeBackground()
 	}
+}
+
+
+
+extension UILabel {
+    func applyCustomFont(_ fontSize: CGFloat) {
+        let customFontName = "FFShamelFamily-SansOneBold"
+        
+        if self.font != nil,
+           let newFont = UIFont(name: customFontName, size: fontSize) {
+            self.font = newFont
+        }
+    }
 }

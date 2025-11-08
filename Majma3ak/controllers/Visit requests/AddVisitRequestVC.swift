@@ -108,12 +108,13 @@ class AddVisitRequestVC: UIViewController {
 extension AddVisitRequestVC {
     func setUpview(){
         self.loaderAddMaintanceReq.isHidden = true
-        VisitorNametxt.delegate  = self
-        VisitorPhonetxt.delegate = self
+//        VisitorNametxt.delegate  = self
+//        VisitorPhonetxt.delegate = self
         VisitorNametxt.returnKeyType = .next
         VisitorPhonetxt.returnKeyType = .done
 //        descrptionProblemtxt.delegate = self
         
+        setupTextViews()
     }
     
     func setupdata(){
@@ -227,13 +228,38 @@ extension AddVisitRequestVC {
     
 }
 
-extension AddVisitRequestVC : UITextFieldDelegate {
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if textField == VisitorNametxt {
-            VisitorPhonetxt.becomeFirstResponder()
-        } else if textField == VisitorPhonetxt {
-            descrptionProblemtxt.resignFirstResponder()  // يغلق الكيبورد عند الضغط على Done
+
+
+extension AddVisitRequestVC: UITextViewDelegate, UITextFieldDelegate {
+    public func setupTextViews() {
+        view.subviews.forEach { setReturnHandler(for: $0) }
+    }
+
+    private func setReturnHandler(for view: UIView) {
+        if let textView = view as? UITextView {
+            textView.delegate = self
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
         }
+        
+        if let textField = view as? UITextField {
+            textField.delegate = self
+            textField.returnKeyType = .done
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
+        }
+    }
+
+    public func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
+    
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
         return true
     }
 }

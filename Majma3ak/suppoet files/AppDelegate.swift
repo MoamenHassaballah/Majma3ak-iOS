@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
             IQKeyboardManager.shared.isEnabled = true
         IQKeyboardManager.shared.resignOnTouchOutside = true // 👈 This is the key line
+        
 //            IQKeyboardManager.shared.enableAutoToolbar = true // optional
 //        if let savedToken = UserDefaults.standard.string(forKey: "access_token") {
 //            print("Saved Token: \(savedToken)")
