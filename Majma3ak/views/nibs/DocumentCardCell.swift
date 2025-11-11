@@ -14,6 +14,7 @@ class DocumentCardCell: UITableViewCell {
     @IBOutlet weak var documentImage: UIImageView!
     @IBOutlet weak var documentDescription: UILabel!
     @IBOutlet weak var fileType: UILabel!
+    @IBOutlet weak var documentType: UILabel!
     
     var onTap: (() -> Void)?
 
@@ -43,9 +44,10 @@ class DocumentCardCell: UITableViewCell {
             onTap?()
         }
 
-        func configure(imageUrl: String?, description: String, type: String) {
+    func configure(imageUrl: String?, description: String, type: String, documentType: String) {
             documentDescription.text = description
             fileType.text = type
+        self.documentType.text = documentType
 
             if let urlString = imageUrl, let url = URL(string: urlString), type == "png" {
                 documentImage.kf.setImage(with: url)

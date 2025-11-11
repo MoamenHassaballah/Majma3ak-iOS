@@ -174,6 +174,8 @@ extension TechnicalSupportVC {
         self.addNewTicketView.isHidden = !isAddTicket
         self.previousTicketsView.isHidden = isAddTicket
         
+        setupTextViews()
+        
     }
     func fetchData(){
         getTickets()
@@ -363,3 +365,39 @@ struct AddContactsResponse : Codable {
 //        navigationController?.popViewController(animated: true)
 //    }
 //}
+
+
+
+extension TechnicalSupportVC: UITextViewDelegate, UITextFieldDelegate {
+    public func setupTextViews() {
+        view.subviews.forEach { setReturnHandler(for: $0) }
+    }
+
+    private func setReturnHandler(for view: UIView) {
+        if let textView = view as? UITextView {
+            textView.delegate = self
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
+        }
+        
+        if let textField = view as? UITextField {
+            textField.delegate = self
+            textField.returnKeyType = .done
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
+        }
+    }
+
+    public func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
+    
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}

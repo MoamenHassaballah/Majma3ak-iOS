@@ -191,7 +191,7 @@ extension AddMaintenanceRequestVC {
     func setUpView(){
         self.loaderAddMaintanceRequest.isHidden = true
         self.imageParentView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.pickRequestImage)))
-        
+        setupTextViews()
     }
     func fetchData(){
         getMaintenanceDepartments()
@@ -319,4 +319,39 @@ extension AddMaintenanceRequestVC {
 struct SendMaintenanceResponse : Codable {
     let code : Int
     let message : String
+}
+
+
+extension AddMaintenanceRequestVC: UITextViewDelegate, UITextFieldDelegate {
+    public func setupTextViews() {
+        view.subviews.forEach { setReturnHandler(for: $0) }
+    }
+
+    private func setReturnHandler(for view: UIView) {
+        if let textView = view as? UITextView {
+            textView.delegate = self
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
+        }
+        
+        if let textField = view as? UITextField {
+            textField.delegate = self
+            textField.returnKeyType = .done
+        } else {
+            view.subviews.forEach { setReturnHandler(for: $0) }
+        }
+    }
+
+    public func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
+    
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

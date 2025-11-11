@@ -193,6 +193,18 @@
         }
       }
     },
+    "1Vb-kv-Jlb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Rejection Reason\"; ObjectID = \"1Vb-kv-Jlb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rejection Reason"
+          }
+        }
+      }
+    },
     "2Is-ox-cQ4.text" : {
       "comment" : "Class = \"UILabel\"; text = \"اختر التاريخ\"; ObjectID = \"2Is-ox-cQ4\";",
       "extractionState" : "manual",
@@ -385,6 +397,18 @@
         }
       }
     },
+    "5g6-QI-OK0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"5g6-QI-OK0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
     "5J2-yB-ceF.text" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -530,6 +554,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ژمارەی مۆبایل"
+          }
+        }
+      }
+    },
+    "7Pe-Dn-ZrS.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Upload New File\"; ObjectID = \"7Pe-Dn-ZrS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رفع ملف جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upload New File"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بارکردنی پەڕگەی نوێ"
           }
         }
       }
@@ -791,6 +839,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "بەشی چاککردنەوە"
+          }
+        }
+      }
+    },
+    "022-E5-Fgl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Description\"; ObjectID = \"022-E5-Fgl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
           }
         }
       }
@@ -1612,6 +1672,42 @@
         }
       }
     },
+    "dwu-QX-onN.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Requested Files\"; ObjectID = \"dwu-QX-onN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملفات المطلوبة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Requested Files"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پەڕگەی داواکراو"
+          }
+        }
+      }
+    },
+    "dwu-QX-onN.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"dwu-QX-onN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
     "dzd-HU-38m.configuration.title" : {
       "comment" : "Class = \"UIButton\"; configuration.title = \"About System\"; ObjectID = \"dzd-HU-38m\";",
       "extractionState" : "extracted_with_value",
@@ -2101,6 +2197,18 @@
         }
       }
     },
+    "g1r-5f-cBx.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"g1r-5f-cBx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
     "G4M-Pv-mXf.placeholder" : {
       "comment" : "Class = \"UITextField\"; placeholder = \"the complex\"; ObjectID = \"G4M-Pv-mXf\";",
       "extractionState" : "extracted_with_value",
@@ -2578,6 +2686,18 @@
         }
       }
     },
+    "hJW-qL-PvI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Pending\"; ObjectID = \"hJW-qL-PvI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pending"
+          }
+        }
+      }
+    },
     "hkO-Ds-MOF.configuration.title" : {
       "comment" : "Class = \"UIButton\"; configuration.title = \" \"; ObjectID = \"hkO-Ds-MOF\";",
       "extractionState" : "extracted_with_value",
@@ -2793,6 +2913,30 @@
         }
       }
     },
+    "iwM-o4-Jf8.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Requested Files\"; ObjectID = \"iwM-o4-Jf8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملفات المطلوبة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Requested Files"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پەڕگەی داواکراو"
+          }
+        }
+      }
+    },
     "izJ-6y-jGX.text" : {
       "comment" : "Class = \"UILabel\"; text = \"There are no added requests currently.\"; ObjectID = \"izJ-6y-jGX\";",
       "extractionState" : "manual",
@@ -2825,6 +2969,18 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Label"
+          }
+        }
+      }
+    },
+    "jFU-f6-o8s.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"No Documents Available\"; ObjectID = \"jFU-f6-o8s\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Documents Available"
           }
         }
       }
@@ -4206,6 +4362,30 @@
         }
       }
     },
+    "riQ-dB-zUQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Previously Uploaded Files\"; ObjectID = \"riQ-dB-zUQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملفات المرفوعة سابقًا"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Previously Uploaded Files"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پەڕگەکانى پێشتر بارکراو"
+          }
+        }
+      }
+    },
     "rjo-Rt-fTG.normalTitle" : {
       "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"rjo-Rt-fTG\";",
       "extractionState" : "extracted_with_value",
@@ -4429,6 +4609,42 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "Fix Tellll"
+          }
+        }
+      }
+    },
+    "sTX-ju-6F8.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Sent Files\"; ObjectID = \"sTX-ju-6F8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملفات المرسلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sent Files"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پەڕگەی نێردراو"
+          }
+        }
+      }
+    },
+    "sTX-ju-6F8.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"sTX-ju-6F8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
           }
         }
       }
@@ -4866,6 +5082,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "منیش بە مەرج و ڕێساکان ڕازیم"
+          }
+        }
+      }
+    },
+    "w6L-io-ciF.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"File Details\"; ObjectID = \"w6L-io-ciF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "File Details"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وردەکارییەکانی فایل"
           }
         }
       }

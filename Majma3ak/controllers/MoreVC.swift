@@ -20,6 +20,7 @@ class MoreVC: UIViewController {
     @IBOutlet weak var maintenanceRequestArrowBtn: UIButton!
     @IBOutlet weak var visitRequestArrowBtn: UIButton!
     @IBOutlet weak var complaintSupportArrowBtn: UIButton!
+    @IBOutlet weak var filesArrow: UIButton!
     
     @IBOutlet weak var maintenanceRequestView: UIStackView!
     
@@ -27,6 +28,7 @@ class MoreVC: UIViewController {
     
     @IBOutlet weak var complaintsView: UIStackView!
     
+    @IBOutlet weak var filesView: UIStackView!
     
     
     @IBOutlet weak var paymentsBtn: UIButton!
@@ -252,9 +254,28 @@ class MoreVC: UIViewController {
     
     
     @IBAction func onFIlesPressed(_ sender: Any) {
+        UIView.animate(withDuration: 0.3, animations: { [self] in
+            
+            
+            filesView.isHidden = !self.filesView.isHidden
+            
+            filesArrow.setImage(filesView.isHidden ? UIImage(systemName: "chevron.down") : UIImage(systemName: "chevron.up"), for: .normal)
+            
+        })
+    }
+    
+    
+    @IBAction func onSentFilesClicked(_ sender: Any) {
         let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "DocumentsVC") as? DocumentsVC
         vc?.push()
     }
+    
+    
+    @IBAction func onRequestedFilesClick(_ sender: Any) {
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "RequestedDocumentsVC") as? RequestedDocumentsVC
+        vc?.push()
+    }
+    
     
     @IBAction func onTermsClick(_ sender: Any) {
         let vc = UIStoryboard.mainStoryBoard.instantiateViewController(identifier: "TermsOfServiceVC") as? TermsOfServiceVC
@@ -419,7 +440,7 @@ extension MoreVC {
                 let user = success.data
                 self.helloLabel.text = "\("Hello".loclize_) \(user.name ?? "")"
                 if let profilePic = user.profilePciture, !profilePic.isEmpty {
-                    self.profileImage.kf.setImage(with: URL(string: "\(Request.baseUrl)\(profilePic)")!)
+                    self.profileImage.kf.setImage(with: URL(string: "\(profilePic)")!)
                 }
 //                self.nameLbl.text = user.
                 

@@ -226,4 +226,6 @@ System Goals:
 "Push Notifications" = "Push Notifications";
 "SMS" = "SMS";
 
-
+"pending" = "pending";
+"rejected" = "rejected";
+"approved" = "approved";
