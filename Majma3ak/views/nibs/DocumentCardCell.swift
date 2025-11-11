@@ -49,7 +49,7 @@ class DocumentCardCell: UITableViewCell {
             fileType.text = type
         self.documentType.text = documentType
 
-            if let urlString = imageUrl, let url = URL(string: urlString), type == "png" {
+            if let urlString = imageUrl, let url = URL(string: urlString), type == "png" || type == "jpg" || type == "jpeg" {
                 documentImage.kf.setImage(with: url)
             } else {
                 documentImage.image = UIImage(named: "default-featured-image")

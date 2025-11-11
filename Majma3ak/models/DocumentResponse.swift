@@ -16,7 +16,7 @@ struct UserDocument: Codable {
     let file_type: String
     let document_type: String?
     let description: String
-    let apartment: ApartmentData
+    let apartment: ApartmentData?
     let created_at: String
     let updated_at: String
 

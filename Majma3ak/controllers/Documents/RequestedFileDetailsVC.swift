@@ -99,44 +99,6 @@ class RequestedFileDetailsVC: UIViewController {
     }
     
     
-    @IBAction func onDownloadClicked(_ sender: Any) {
-        
-        guard let doc = document else { return }
-//        let fileType = doc.file_type.lowercased()
-//        downloadFile(from: doc.file_url) { localUrl in
-//            guard let localUrl = localUrl else { return }
-//            DispatchQueue.main.async {
-//                if fileType == "png" {
-//                    if let image = UIImage(contentsOfFile: localUrl.path) {
-//                        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-//                        ProgressHUD.success("File downloaded!")
-//                    }
-//                } else if fileType == "pdf" {
-//                    let docPicker = UIDocumentPickerViewController(forExporting: [localUrl])
-//                    self.present(docPicker, animated: true) {
-//                        ProgressHUD.success("File downloaded!")
-//                    }
-//                } else {
-//                    // For other file types, fallback to showing success
-//                    ProgressHUD.success("File downloaded!")
-//                }
-//            }
-//        }
-        
-        
-    }
-    
-    
-    @IBAction func onShareClicked(_ sender: Any) {
-        
-        guard let doc = document else { return }
-//        downloadFile(from: doc.file_url) { localUrl in
-//            guard let localUrl = localUrl else { return }
-//            let activityVC = UIActivityViewController(activityItems: [localUrl], applicationActivities: nil)
-//            self.present(activityVC, animated: true)
-//        }
-    }
-    
     func downloadFile(from urlString: String, completion: @escaping (URL?) -> Void) {
         guard let url = URL(string: urlString) else { completion(nil); return }
         let task = URLSession.shared.downloadTask(with: url) { tempUrl, response, error in
@@ -163,7 +125,9 @@ class RequestedFileDetailsVC: UIViewController {
     
     
     @IBAction func onUploadNewFile(_ sender: Any) {
-        
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "UploadFileVC") as? UploadFileVC
+        vc?.requestId = document.id
+        vc?.push()
     }
     
     
@@ -186,6 +150,11 @@ extension RequestedFileDetailsVC: UITableViewDataSource, UITableViewDelegate {
         )
         cell.onTap = {
             // Implement preview or download if desired
+            
+            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "FileDetailsVC") as? FileDetailsVC
+            vc?.document = UserDocument(id: docItem.id ?? -1, user_id: "", apartment_id: "", file_name: docItem.fileName, file_path: docItem.filePath ?? "", file_url: docItem.filePath ?? "", file_type: docItem.fileType ?? "", document_type: "", description: docItem.description ?? "", apartment: nil, created_at: "", updated_at: "")
+            vc?.push()
+            
         }
         return cell
     }

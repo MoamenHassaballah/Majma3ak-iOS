@@ -34,7 +34,7 @@ class FileDetailsVC: UIViewController {
         guard let doc = document else { return }
         // Remove previous subviews
         parentView.subviews.forEach { $0.removeFromSuperview() }
-        if doc.file_type.lowercased() == "png" {
+        if doc.file_type.lowercased() == "png" || doc.file_type.lowercased() == "jpg" || doc.file_type.lowercased() == "jpeg"  {
             parentView.addSubview(imageView)
             if let url = URL(string: doc.file_url) {
                 imageView.kf.setImage(with: url)

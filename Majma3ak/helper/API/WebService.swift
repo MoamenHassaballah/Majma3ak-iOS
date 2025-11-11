@@ -147,6 +147,7 @@ class WebService: NSObject {
         }, to: url, method: .post, headers: headers)
         .validate()
         .responseData { response in
+            
             switch response.result {
             case .success(let data):
                 do {
@@ -154,9 +155,33 @@ class WebService: NSObject {
                     completion(.success(json))
                 } catch {
                     completion(.failure(error))
+                    
+                    if let data = response.data {
+                            do {
+                                let json = try JSONSerialization.jsonObject(with: data, options: [])
+                                let prettyData = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+                                if String(data: prettyData, encoding: .utf8) != nil {
+                                    print("(prettyString)")
+                                }
+                            } catch {
+                                print("JSON parsing error:", error)
+                            }
+                        }
                 }
             case .failure(let error):
                 completion(.failure(error))
+                
+                if let data = response.data {
+                        do {
+                            let json = try JSONSerialization.jsonObject(with: data, options: [])
+                            let prettyData = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+                            if let prettyString = String(data: prettyData, encoding: .utf8) {
+                                print("\(prettyString)")
+                            }
+                        } catch {
+                            print("JSON parsing error:", error)
+                        }
+                    }
             }
         }
         

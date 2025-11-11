@@ -84,6 +84,7 @@
 		53492B0A2EC2B2E4009E6A7E /* DocumentCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53492B092EC2B2E4009E6A7E /* DocumentCardCell.xib */; };
 		53492B0B2EC2B2E4009E6A7E /* DocumentCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53492B082EC2B2E4009E6A7E /* DocumentCardCell.swift */; };
 		5357B37F2E496897004185BE /* TermsOfServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357B37E2E496897004185BE /* TermsOfServiceVC.swift */; };
+		537BA92E2EC3DB910083FE31 /* UploadFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BA92D2EC3DB910083FE31 /* UploadFileVC.swift */; };
 		537E304D2E4B8F1A008258D1 /* PaymentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */; };
 		537E30512E4B9495008258D1 /* PaymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */; };
 		537E30542E4B9585008258D1 /* PaymentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537E30532E4B9585008258D1 /* PaymentsTableViewCell.xib */; };
@@ -186,6 +187,7 @@
 		53492B082EC2B2E4009E6A7E /* DocumentCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCardCell.swift; sourceTree = "<group>"; };
 		53492B092EC2B2E4009E6A7E /* DocumentCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentCardCell.xib; sourceTree = "<group>"; };
 		5357B37E2E496897004185BE /* TermsOfServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceVC.swift; sourceTree = "<group>"; };
+		537BA92D2EC3DB910083FE31 /* UploadFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileVC.swift; sourceTree = "<group>"; };
 		537E304C2E4B8F18008258D1 /* PaymentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsResponse.swift; sourceTree = "<group>"; };
 		537E304E2E4B9495008258D1 /* PaymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewCell.swift; sourceTree = "<group>"; };
 		537E30522E4B9585008258D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PaymentsTableViewCell.xib; sourceTree = "<group>"; };
@@ -484,6 +486,7 @@
 				53492AFA2EC28E51009E6A7E /* RequestedDocumentsVC.swift */,
 				53EA30DA2EBBA8540044AA94 /* FileDetailsVC.swift */,
 				53492B022EC2A3E6009E6A7E /* RequestedFileDetailsVC.swift */,
+				537BA92D2EC3DB910083FE31 /* UploadFileVC.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -666,6 +669,7 @@
 				43D5AFD72E2402450017B175 /* NotifcationsVC.swift in Sources */,
 				433F082B2DF3949B00667A73 /* UIViewEx.swift in Sources */,
 				53B156962E4A5395007B823E /* AboutSystemVC.swift in Sources */,
+				537BA92E2EC3DB910083FE31 /* UploadFileVC.swift in Sources */,
 				4393BD802E2AEB1100E956A9 /* VerifiedOtpResponse.swift in Sources */,
 				53EA30DB2EBBA8540044AA94 /* FileDetailsVC.swift in Sources */,
 				43C067EB2E10A2A200E4E5C4 /* offerCell.swift in Sources */,

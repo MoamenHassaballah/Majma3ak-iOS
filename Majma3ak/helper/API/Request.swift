@@ -44,6 +44,7 @@ struct Request {
     static let payments = url + "payments"
     static let documents = url + "documents?"
     static let requestedDocuments = url + "document-requests?"
+    static let uploadRequestedDocuments = url + "document-requests/"
 
     
     

@@ -325,6 +325,18 @@
         }
       }
     },
+    "3mF-9O-Fpt.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"file name\"; ObjectID = \"3mF-9O-Fpt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "file name"
+          }
+        }
+      }
+    },
     "4nj-Ke-Tbc.title" : {
       "comment" : "Class = \"UINavigationItem\"; title = \"Files\"; ObjectID = \"4nj-Ke-Tbc\";",
       "extractionState" : "extracted_with_value",
@@ -962,6 +974,30 @@
         }
       }
     },
+    "ADt-gw-L3L.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter file description (Optional)\"; ObjectID = \"ADt-gw-L3L\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل وصف الملف (اختياري)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter file description (Optional)"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وەسفی پەڕگە بنووسە (ئارەزوویە)"
+          }
+        }
+      }
+    },
     "aEI-QL-nPh.text" : {
       "comment" : "Class = \"UILabel\"; text = \"No Documents Available\"; ObjectID = \"aEI-QL-nPh\";",
       "extractionState" : "extracted_with_value",
@@ -1485,6 +1521,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SVG، PNG، JPG یان GIF (زۆرترین 800x400px)"
+          }
+        }
+      }
+    },
+    "D0r-44-85Q.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Upload File\"; ObjectID = \"D0r-44-85Q\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رفع الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upload File"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بارکردنی پەڕگە"
           }
         }
       }
@@ -4816,6 +4876,30 @@
         }
       }
     },
+    "TSe-P3-KpK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Upload File\"; ObjectID = \"TSe-P3-KpK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رفع الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upload File"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بارکردنی پەڕگە"
+          }
+        }
+      }
+    },
     "u0i-Id-pBR.text" : {
       "comment" : "Class = \"UILabel\"; text = \"الاسم الكامل\"; ObjectID = \"u0i-Id-pBR\";",
       "extractionState" : "manual",
@@ -5202,6 +5286,42 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ئیمەیڵ"
+          }
+        }
+      }
+    },
+    "wu9-Kj-UNJ.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Select File\"; ObjectID = \"wu9-Kj-UNJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select File"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هەڵبژاردنی پەڕگە"
+          }
+        }
+      }
+    },
+    "wu9-Kj-UNJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"wu9-Kj-UNJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
           }
         }
       }
