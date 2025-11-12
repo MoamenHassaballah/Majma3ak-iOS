@@ -211,7 +211,27 @@
 "Status:" = "دۆخ:";
 
 
-
+"submitted" = "ناردن بە سەرکەوتوویی تەواو بو";
 "pending" = "چاوەڕوان";
 "rejected" = "رەدکراو";
 "approved" = "پەسەندکراو";
+
+
+"Delete" = "سڕینەوە";
+"Confirm Delete" = "دڵنیابوون لە سڕینەوە";
+"Are you sure you want to delete this file?" = "دڵنیای دەتەوێت ئەم پەڕگەیە بسڕیتەوە؟";
+"Deleting..." = "لە سڕینەوەدایە...";
+
+
+
+"Select File" = "هەڵبژاردنی پەڕگە";
+"Cancel" = "هەڵوەشاندنەوە";
+"Document" = "بەڵگەنامە";
+"Photo Library" = "پەرتووکخانەی وێنە";
+"Camera" = "کامێرا";
+
+
+"Please select a file." = "تکایە پەڕگە هەڵبژێرە.";
+"File exceeds 10 MB." = "پەڕگە زیاتر لە 10 MBە.";
+"Can't upload file." = "ناتوانرێت پەڕگە باربکرێتەوە.";
+"Uploading file..." = "پەڕگە لە بارکردندا...";

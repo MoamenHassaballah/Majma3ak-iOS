@@ -30,35 +30,35 @@ class UploadFileVC: UIViewController, UIDocumentPickerDelegate, UIImagePickerCon
     }
     
     @IBAction func onSelectFileClicked(_ sender: Any) {
-        let alert = UIAlertController(title: "Select File", message: nil, preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Camera", style: .default, handler: { _ in self.presentImagePicker(.camera) }))
-        alert.addAction(UIAlertAction(title: "Photo Library", style: .default, handler: { _ in self.presentImagePicker(.photoLibrary) }))
-        alert.addAction(UIAlertAction(title: "Document", style: .default, handler: { _ in self.presentDocumentPicker() }))
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        let alert = UIAlertController(title: "Select File".loclize_, message: nil, preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Camera".loclize_, style: .default, handler: { _ in self.presentImagePicker(.camera) }))
+        alert.addAction(UIAlertAction(title: "Photo Library".loclize_, style: .default, handler: { _ in self.presentImagePicker(.photoLibrary) }))
+        alert.addAction(UIAlertAction(title: "Document".loclize_, style: .default, handler: { _ in self.presentDocumentPicker() }))
+        alert.addAction(UIAlertAction(title: "Cancel".loclize_, style: .cancel, handler: nil))
         present(alert, animated: true)
     }
     
     
     @IBAction func onUploadFileClicked(_ sender: Any) {
-        guard let description = descriptionTextField.text, !description.isEmpty else {
-            showError("Please enter a description.")
-            return
-        }
+//        guard let description = descriptionTextField.text, !description.isEmpty else {
+//            showError("Please enter a description.")
+//            return
+//        }
         guard let fileData = selectedImageData ?? (selectedFileURL != nil ? try? Data(contentsOf: selectedFileURL!) : nil), let _ = selectedFileNameString else {
-            showError("Please select a file.")
+            showError("Please select a file.".loclize_)
             return
         }
         if fileData.count > maxFileSize {
-            showError("File exceeds 10 MB.")
+            showError("File exceeds 10 MB.".loclize_)
             return
         }
         
         if requestId == nil {
-            showError("Can't upload file.")
+            showError("Can't upload file.".loclize_)
             return
         }
         
-        ProgressHUD.progress("Uploading file...", 8)
+        ProgressHUD.progress("Uploading file...".loclize_, 8)
         
         let urlString = "\(Request.uploadRequestedDocuments)\(requestId!)/upload" // TODO: Replace with the actual endpoint
         WebService.shared.uploadImage(url: urlString, imageData: fileData, parameters: [
@@ -67,8 +67,8 @@ class UploadFileVC: UIViewController, UIDocumentPickerDelegate, UIImagePickerCon
             
             switch result {
                 case .success:
-                print("File uploaded successfully.")
-                ProgressHUD.success("File uploaded successfully.")
+                print("File uploaded successfully.".loclize_)
+                ProgressHUD.success("File uploaded successfully.".loclize_)
                 
                 
                 self.selectedFileURL = nil
@@ -83,7 +83,7 @@ class UploadFileVC: UIViewController, UIDocumentPickerDelegate, UIImagePickerCon
                 
             case .failure(let error):
                 print("Failed to upload file: \(error)")
-                ProgressHUD.failed("Failed to upload file: \(error)")
+                ProgressHUD.failed("\(error)")
             }
             
         }

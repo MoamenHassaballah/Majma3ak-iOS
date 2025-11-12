@@ -226,6 +226,25 @@ System Goals:
 "Push Notifications" = "Push Notifications";
 "SMS" = "SMS";
 
+"submitted" = "submitted";
 "pending" = "pending";
 "rejected" = "rejected";
 "approved" = "approved";
+
+
+"Delete" = "Delete";
+"Confirm Delete" = "Confirm Delete";
+"Are you sure you want to delete this file?" = "Are you sure you want to delete this file?";
+"Deleting..." = "Deleting...";
+
+"Select File" = "Select File";
+"Cancel" = "Cancel";
+"Document" = "Document";
+"Photo Library" = "Photo Library";
+"Camera" = "Camera";
+
+
+"Please select a file." = "Please select a file.";
+"File exceeds 10 MB." = "File exceeds 10 MB.";
+"Can't upload file." = "Can't upload file.";
+"Uploading file..." = "Uploading file...";

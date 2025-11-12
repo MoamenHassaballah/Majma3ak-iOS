@@ -90,6 +90,8 @@
 		537E30542E4B9585008258D1 /* PaymentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537E30532E4B9585008258D1 /* PaymentsTableViewCell.xib */; };
 		53938E4B2E8C5D6300DB5697 /* OfferDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53938E4A2E8C5D6300DB5697 /* OfferDetailsVC.swift */; };
 		539CDD9E2E9715E000DE15DE /* ComplexNotificationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539CDD9D2E9715DE00DE15DE /* ComplexNotificationResponse.swift */; };
+		53A6F09E2EC5149300D7D297 /* SingleDocumentRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6F09D2EC5149300D7D297 /* SingleDocumentRequestResponse.swift */; };
+		53A6F0A02EC5296700D7D297 /* DeleteDocumentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6F09F2EC5296700D7D297 /* DeleteDocumentResponse.swift */; };
 		53B156962E4A5395007B823E /* AboutSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156952E4A5395007B823E /* AboutSystemVC.swift */; };
 		53B156982E4A9917007B823E /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156972E4A9917007B823E /* PaymentsVC.swift */; };
 		53B1569A2E4A996E007B823E /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B156992E4A996A007B823E /* UILabelEx.swift */; };
@@ -194,6 +196,8 @@
 		537E30552E4B9585008258D1 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/PaymentsTableViewCell.xcstrings; sourceTree = "<group>"; };
 		53938E4A2E8C5D6300DB5697 /* OfferDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsVC.swift; sourceTree = "<group>"; };
 		539CDD9D2E9715DE00DE15DE /* ComplexNotificationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNotificationResponse.swift; sourceTree = "<group>"; };
+		53A6F09D2EC5149300D7D297 /* SingleDocumentRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDocumentRequestResponse.swift; sourceTree = "<group>"; };
+		53A6F09F2EC5296700D7D297 /* DeleteDocumentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDocumentResponse.swift; sourceTree = "<group>"; };
 		53B156952E4A5395007B823E /* AboutSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSystemVC.swift; sourceTree = "<group>"; };
 		53B156972E4A9917007B823E /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
 		53B156992E4A996A007B823E /* UILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
@@ -263,6 +267,8 @@
 				43388BDA2E0C3B8200E0B3DF /* OfferModel.swift */,
 				531559112EB94BDC003AA034 /* DocumentResponse.swift */,
 				53492AFC2EC297C3009E6A7E /* DocumentRequestsResponse.swift */,
+				53A6F09D2EC5149300D7D297 /* SingleDocumentRequestResponse.swift */,
+				53A6F09F2EC5296700D7D297 /* DeleteDocumentResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -656,6 +662,7 @@
 				5311718A2E8D6BE5003D3C0F /* NotificationDetailsVC.swift in Sources */,
 				433F080F2DF3934800667A73 /* SceneDelegate.swift in Sources */,
 				43DA278B2E158F51003E847E /* VisitRequestsVC.swift in Sources */,
+				53A6F0A02EC5296700D7D297 /* DeleteDocumentResponse.swift in Sources */,
 				4393BD842E2C09F500E956A9 /* VisitRequestDetailsVC.swift in Sources */,
 				433F08292DF3947B00667A73 /* UIViewControllerEx.swift in Sources */,
 				433F08102DF3934800667A73 /* ViewController.swift in Sources */,
@@ -678,6 +685,7 @@
 				433F083C2DF3954200667A73 /* AddMaintenanceRequestVC.swift in Sources */,
 				43FD195E2E16562600C784C2 /* FontApplicable.swift in Sources */,
 				43C067F22E10A48700E4E5C4 /* TopCurveView.swift in Sources */,
+				53A6F09E2EC5149300D7D297 /* SingleDocumentRequestResponse.swift in Sources */,
 				43C067F82E10ABE600E4E5C4 /* Apartments.swift in Sources */,
 				43C067E92E1091FF00E4E5C4 /* MaintenanceResponse.swift in Sources */,
 				53D182162E461A5C00ED7977 /* UIApplicationEx.swift in Sources */,
@@ -807,7 +815,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23.5;
+				CURRENT_PROJECT_VERSION = 23.6;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;
@@ -845,7 +853,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23.5;
+				CURRENT_PROJECT_VERSION = 23.6;
 				DEVELOPMENT_TEAM = UP32MLA86H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Majma3ak/Info.plist;

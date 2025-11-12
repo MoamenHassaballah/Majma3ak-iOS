@@ -28,12 +28,17 @@ class RequestedDocumentsVC: UIViewController {
         
         self.navigationController?.isNavigationBarHidden = false
         
+        self.emptyStateLabel.isHidden = true
         documentsTableView.delegate = self
         documentsTableView.dataSource = self
         documentsTableView.showsVerticalScrollIndicator = false
         documentsTableView.showsHorizontalScrollIndicator = false
         documentsTableView.register(UINib(nibName: String(describing: RequestedDocumentCell.self), bundle: nil), forCellReuseIdentifier: String(describing: RequestedDocumentCell.self))
         
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         fetchDocuments()
     }
     
