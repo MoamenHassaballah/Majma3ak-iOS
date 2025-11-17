@@ -51,7 +51,7 @@ class RequestedFileDetailsVC: UIViewController {
         uploadedFilesTableView.register(UINib(nibName: String(describing: DocumentCardCell.self), bundle: nil), forCellReuseIdentifier: String(describing: DocumentCardCell.self))
         uploadedFilesTableView.showsVerticalScrollIndicator = false
         uploadedFilesTableView.showsHorizontalScrollIndicator = false
-        uploadFileBtn.isHidden = document?.status?.lowercased() == "submitted" || document?.status?.lowercased() == "approved"
+        uploadFileBtn.isHidden = document?.status?.lowercased() != "pending"
         
         
         // Remove previous subviews

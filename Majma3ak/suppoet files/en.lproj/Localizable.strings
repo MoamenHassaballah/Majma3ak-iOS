@@ -242,6 +242,7 @@ System Goals:
 "Document" = "Document";
 "Photo Library" = "Photo Library";
 "Camera" = "Camera";
+"Gallery" = "Gallery";
 
 
 "Please select a file." = "Please select a file.";

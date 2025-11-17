@@ -1,6 +1,30 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "7hh-qO-Xek.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment Date\"; ObjectID = \"7hh-qO-Xek\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الدفع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment Date"
+          }
+        },
+        "ku" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ڕۆژی پارەدان"
+          }
+        }
+      }
+    },
     "9Xn-HW-hns.text" : {
       "comment" : "Class = \"UILabel\"; text = \"200\"; ObjectID = \"9Xn-HW-hns\";",
       "extractionState" : "extracted_with_value",
@@ -38,13 +62,13 @@
       }
     },
     "cYh-Ks-J1V.text" : {
-      "comment" : "Class = \"UILabel\"; text = \"10-10-2025\"; ObjectID = \"cYh-Ks-J1V\";",
+      "comment" : "Class = \"UILabel\"; text = \"Invoice Description\"; ObjectID = \"cYh-Ks-J1V\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "10-10-2025"
+            "value" : "Invoice Description"
           }
         }
       }
@@ -79,8 +103,8 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "الوقت"
+            "state" : "translated",
+            "value" : "الحالة"
           }
         },
         "en" : {
@@ -91,32 +115,44 @@
         },
         "ku" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "کات"
+            "state" : "translated",
+            "value" : "دۆخ"
           }
         }
       }
     },
     "U91-tH-ziL.text" : {
-      "comment" : "Class = \"UILabel\"; text = \"Payment Date\"; ObjectID = \"U91-tH-ziL\";",
+      "comment" : "Class = \"UILabel\"; text = \"Description\"; ObjectID = \"U91-tH-ziL\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "الحالة"
+            "state" : "translated",
+            "value" : "الوصف"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Payment Date"
+            "value" : "Description"
           }
         },
         "ku" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "دۆخ"
+            "state" : "translated",
+            "value" : "شرێوە"
+          }
+        }
+      }
+    },
+    "wt3-7M-nKM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"10-10-2025\"; ObjectID = \"wt3-7M-nKM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "10-10-2025"
           }
         }
       }

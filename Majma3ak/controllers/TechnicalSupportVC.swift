@@ -241,6 +241,40 @@ extension TechnicalSupportVC {
     
     func sentSupportTrchnical(name : String , email : String , mobileNumber : String , content : String ,  typeProblem : String){
         ProgressHUD.progress("loading..".loclize_, 1.0)
+        
+        guard let imageData = selectedImage?.jpegData(compressionQuality: 0.8) else {
+            print("Failed to convert image to data")
+            return
+        }
+        
+        WebService.shared.uploadImage(url: Request.contacts, imageData: imageData, parameters: [
+            "name":name,
+            "email":email,
+            "phone":mobileNumber,
+            "type":typeProblem,
+            "content":content
+        ], imageParameter: "attachments[0]") { result in
+            
+            switch result {
+            case .success(_):
+//                print(success.code)
+//                    print("Success message: \(success.message)")
+                ProgressHUD.succeed("Request sent successfully".loclize_)
+                DispatchQueue.main.async {
+                    self.contacts.removeAll()
+                    self.getTickets()
+                }
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+                    self.pop()
+                })
+                
+            case .failure(let failure):
+                
+                ProgressHUD.failed(failure.localizedDescription)
+            }
+        }
+        
         WebService.shared.sendRequest(
             url: Request.contacts,
             params: [

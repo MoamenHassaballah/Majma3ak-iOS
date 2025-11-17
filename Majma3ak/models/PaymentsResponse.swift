@@ -24,6 +24,8 @@ struct PaymentData: Codable {
     let installment_period_to: String?
     let description: String?
     let status: String?
+    let amount: String?
+    let payment_date: String?
     let installments: [Installment]?
     let created_at: String?
     let updated_at: String?

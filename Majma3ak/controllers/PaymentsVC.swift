@@ -23,7 +23,7 @@ class PaymentsVC: UIViewController {
     
     
     @IBOutlet weak var paymentHistoryTableView: UITableView!
-    @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
+    //@IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
     
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
@@ -116,7 +116,7 @@ class PaymentsVC: UIViewController {
         parentView.isHidden = false
         paymentHistoryArray = data
         paymentHistoryTableView.reloadData()
-        tableViewHeight.constant = CGFloat(paymentHistoryArray.count * 170)
+        //tableViewHeight.constant = CGFloat(paymentHistoryArray.count * 170)
         
         
         var remainingAmount = 0.0
@@ -124,6 +124,7 @@ class PaymentsVC: UIViewController {
         
         
         data.forEach { (item) in
+            print("Status: ", item.status ?? "", "Amount: ", item.amount ?? "0.0", "Date: ", item.payment_date ?? "")
             if item.status?.lowercased() == "paid" {
                 paidAmount += Double(item.total_amount ?? "0.0") ?? 0.0
             } else {
