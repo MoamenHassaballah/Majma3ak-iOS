@@ -249,3 +249,6 @@ System Goals:
 "File exceeds 10 MB." = "File exceeds 10 MB.";
 "Can't upload file." = "Can't upload file.";
 "Uploading file..." = "Uploading file...";
+
+
+"accepted" = "Accepted";

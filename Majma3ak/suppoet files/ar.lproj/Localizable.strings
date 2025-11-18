@@ -229,3 +229,6 @@
 "File exceeds 10 MB." = "الملف يتجاوز 10 ميغابايت.";
 "Can't upload file." = "لا يمكن رفع الملف.";
 "Uploading file..." = "جارٍ رفع الملف...";
+
+
+"accepted" = "مقبول";

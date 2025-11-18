@@ -59,7 +59,7 @@ class AddMaintenanceRequestVC: UIViewController, UIImagePickerControllerDelegate
     private func showImagePicker(sourceType: UIImagePickerController.SourceType) {
         let imagePicker = UIImagePickerController()
                 imagePicker.delegate = self
-                imagePicker.sourceType = .photoLibrary
+                imagePicker.sourceType = sourceType
                 imagePicker.allowsEditing = true // Optional: allows cropping
                 present(imagePicker, animated: true, completion: nil)
     }

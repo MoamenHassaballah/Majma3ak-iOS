@@ -17,6 +17,8 @@ class RequestCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var requestDatelbl: UILabel!
     
+    @IBOutlet weak var requestStatelbl: UILabel!
+    
     @IBOutlet weak var cancelRequest: UIButton!
     
     @IBOutlet weak var cancelRequestView: UIStackView!
@@ -32,6 +34,7 @@ class RequestCollectionViewCell: UICollectionViewCell {
     func configure(object : MaintenanceRequest){
         self.requestlbl.text = object.title
         self.requestTypelbl.text = object.maintenanceDepartment?.name?.loclize_ ?? ""
+        self.requestStatelbl.text = object.status?.loclize_ ?? ""
         self.requestDatelbl.text = extractDateOnly(from: object.createdAt ?? "")
         
         self.cancelRequestView.isHidden = !(object.status?.lowercased() == "waiting")

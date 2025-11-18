@@ -144,6 +144,36 @@
           }
         }
       }
+    },
+    "Uhd-pA-rit.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"State\"; ObjectID = \"Uhd-pA-rit\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "State"
+          }
+        }
+      }
+    },
+    "Yze-hm-rlt.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"مقبول\"; ObjectID = \"Yze-hm-rlt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "مقبول"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
