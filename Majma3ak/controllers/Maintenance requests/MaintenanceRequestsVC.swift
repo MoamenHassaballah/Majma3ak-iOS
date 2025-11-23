@@ -162,8 +162,20 @@ extension MaintenanceRequestsVC : UICollectionViewDelegate , UICollectionViewDat
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width
-        let height = collectionView.frame.height
+        _ = collectionView.frame.height
         return CGSize(width: width, height: 100)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+        let selectedRequest = maintenanceRequests[indexPath.item]
+        
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "MaintenanceRequestDetailsVC") as? MaintenanceRequestDetailsVC
+        
+        vc?.request = selectedRequest
+        vc?.push()
+        
     }
 }
 

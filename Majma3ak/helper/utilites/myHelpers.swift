@@ -13,6 +13,7 @@ func extractDateOnly(from dateTimeString: String) -> String? {
     inputFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZ"
 
     let outputFormatter = DateFormatter()
+    outputFormatter.locale = Locale(identifier: "en_US_POSIX")
     outputFormatter.dateFormat = "yyyy-MM-dd"
 
     if let date = inputFormatter.date(from: dateTimeString) {
@@ -27,6 +28,7 @@ func extractDateOnlyForTicket(from dateTimeString: String) -> String? {
     inputFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss" // ✅ هنا التعديل
 
     let outputFormatter = DateFormatter()
+    outputFormatter.locale = Locale(identifier: "en_US_POSIX")
     outputFormatter.dateFormat = "yyyy-MM-dd"
 
     if let date = inputFormatter.date(from: dateTimeString) {

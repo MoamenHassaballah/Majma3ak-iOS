@@ -10,6 +10,12 @@ import ProgressHUD
 
 class MaintenanceRequestDetailsVC: UIViewController {
     
+    
+    @IBOutlet weak var requestImage: UIImageView!
+    @IBOutlet weak var requestImageDivider: UIView!
+    
+    
+    
     @IBOutlet weak var titleValuelbl: UILabel!
     @IBOutlet weak var descriptioValueLbl: UILabel!
     
@@ -25,12 +31,16 @@ class MaintenanceRequestDetailsVC: UIViewController {
     
     @IBOutlet weak var maintenanceDepValueLbl: UILabel!
     @IBOutlet weak var createdValueLbl: UILabel!
+    
+    @IBOutlet weak var cancelBtn: UIButton!
+    
+    
+    
     var request : MaintenanceRequest?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupData()
-        print(Request.maintenanceRequests2 + "/\(request!.id)/cancel")
         
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -43,6 +53,17 @@ class MaintenanceRequestDetailsVC: UIViewController {
     }
     
     func setupData(){
+        
+        if let imageUrl = request?.images?.admin?.first?.imageURL {
+            
+            requestImage.kf.setImage(with: URL(string: imageUrl))
+            
+        } else {
+            requestImage.isHidden = true
+            requestImageDivider.isHidden = true
+        }
+        
+        
         self.titleValuelbl.text = request?.title
         self.descriptioValueLbl.text = request?.description
         self.statusValueLbl.text = request?.status?.loclize_
@@ -55,6 +76,8 @@ class MaintenanceRequestDetailsVC: UIViewController {
         request?.maintenanceDepartment?.name?.loclize_
         self.createdValueLbl.text = extractDateOnly(from: request?.createdAt ?? "")
         
+        
+        cancelBtn.isHidden = request?.status != "waiting"
     }
     
     @IBAction func didTapCancelRequest(_ sender: Any) {

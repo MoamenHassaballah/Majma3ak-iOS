@@ -28,6 +28,7 @@ struct MaintenanceRequest: Codable {
     let id: Int?
     let title, description, status, apartmentID: String?
     let complex: Complex?
+    let images: Images?
     let maintenanceDepartment: Maintenance?
 //    let user, assignedAt , maintenanceCompany: JSONNull?
   let createdAt, updatedAt: String?
@@ -36,12 +37,35 @@ struct MaintenanceRequest: Codable {
         case id, title, description, status
         case apartmentID = "apartment_id"
         case complex
+        case images
         case maintenanceDepartment = "maintenance_department"
 //        case maintenanceCompany = "maintenance_company"
 //        case user
 //    case assignedAt = "assigned_at"
        case createdAt = "created_at"
       case updatedAt = "updated_at"
+    }
+}
+
+
+// MARK: - Images
+struct Images: Codable {
+    let user: [ImageItem]?
+    let admin: [ImageItem]?
+}
+
+// MARK: - ImageItem
+struct ImageItem: Codable {
+    let id: Int?
+    let imageURL: String?
+    let uploadedAt: String?
+    let description: String?
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case imageURL = "image_url"
+        case uploadedAt = "uploaded_at"
+        case description
     }
 }
 

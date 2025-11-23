@@ -18,6 +18,9 @@ class VisitRequestDetailsVC: UIViewController {
     @IBOutlet weak var createdAtLbl: UILabel!
     
     
+    @IBOutlet weak var cancelBtn: UIButton!
+    
+    
     var visitObj : VisitRequest?
 
     override func viewDidLoad() {
@@ -40,9 +43,12 @@ class VisitRequestDetailsVC: UIViewController {
         self.visitorPhoneLbl.text = visit.visiterPhone
         self.visitDateLbl.text = visit.visitDate
         self.visitTimeLbl.text = visit.visitTime
-        self.statusLbl.text = visit.status
+        self.statusLbl.text = visit.status.loclize_
         self.requesterLbl.text = visit.user.name
         self.createdAtLbl.text = extractDateOnly(from: visit.createdAt)
+        
+        
+        cancelBtn.isHidden = visit.status != "pending"
     }
 
     @IBAction func didTapCancelReq(_ sender: Any) {

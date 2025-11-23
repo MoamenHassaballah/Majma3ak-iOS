@@ -61,38 +61,26 @@
         }
       }
     },
-    "df2-Ay-mjW.configuration.title" : {
-      "comment" : "Class = \"UIButton\"; configuration.title = \"Cancel Request\"; ObjectID = \"df2-Ay-mjW\";",
+    "df2-Ay-mjW.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \" Cancel Request \"; ObjectID = \"df2-Ay-mjW\";",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "الغاء الطلب"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Cancel Request"
+            "value" : " Cancel Request "
           }
         },
         "ku" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "هەڵوەشاندنەوەی داواکاری"
-          }
-        }
-      }
-    },
-    "df2-Ay-mjW.normalTitle" : {
-      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"df2-Ay-mjW\";",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Button"
           }
         }
       }

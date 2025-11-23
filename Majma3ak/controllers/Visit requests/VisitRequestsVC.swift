@@ -162,8 +162,18 @@ extension VisitRequestsVC : UICollectionViewDelegate , UICollectionViewDataSourc
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width
-        let height = collectionView.frame.height
+        _ = collectionView.frame.height
         return CGSize(width: width, height: 150)
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let selectedRequest = self.maintenanceRequests[indexPath.row]
+        
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "VisitRequestDetailsVC") as? VisitRequestDetailsVC
+        vc?.visitObj = selectedRequest
+        vc?.push()
     }
 }
 
