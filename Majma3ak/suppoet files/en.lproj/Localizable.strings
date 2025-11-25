@@ -252,3 +252,7 @@ System Goals:
 
 
 "accepted" = "Accepted";
+
+
+"resend_code_timer" = "%02d:%02d to resend code";
+"Couldn't send OTP. Make sure you entered the correct number and the number is registered." = "Couldn't send OTP. Make sure you entered the correct number and the number is registered.";

@@ -232,3 +232,7 @@
 
 
 "accepted" = "مقبول";
+
+
+"resend_code_timer" = "%02d:%02d لإعادة إرسال الرمز";
+"Couldn't send OTP. Make sure you entered the correct number and the number is registered." = "تعذّر إرسال رمز التحقق. تأكّد من إدخال الرقم الصحيح وأن الرقم مسجّل.";

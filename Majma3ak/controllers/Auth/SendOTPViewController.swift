@@ -40,7 +40,10 @@ class SendOTPViewController: UIViewController {
             return
         }
         
-        guard isValidInternationalPhoneNumber(mobileNumber) else {
+        
+        let fullNumber = "+964\(mobileNumber)"
+        
+        guard isValidInternationalPhoneNumber(fullNumber) else {
             ProgressHUD.image("invalid_mobile".loclize_ ,image: UIImage(systemName: "minus.circle.fill"))
             return
         }
@@ -50,7 +53,7 @@ class SendOTPViewController: UIViewController {
         loader.startAnimating()
         
         
-        let fullNumber = "+964\(mobileNumber)"
+        
         
         WebService.shared.sendRequest(url: Request.forgotPassword,
                                       params: [
@@ -60,20 +63,22 @@ class SendOTPViewController: UIViewController {
                                       isAuth: false,
                                       responseType: APIResponse<[Empty]>.self) { result in
             switch result {
-            case .success(let success):
+            case .success(_):
                 self.loader.stopAnimating()
                 self.sendBtn.setTitle("send request to reset the password".loclize_, for: .normal)
 
                 ProgressHUD.success("Password reset OTP sent successfully".loclize_,
                                     image: UIImage(systemName: "envelope.circle.fill"))
                 let vc = UIStoryboard.mainStoryBoard.instantiateViewController(identifier: "OTPVC") as? OTPVC
-                vc?.mobileNumber = mobileNumber
+                vc?.mobileNumber = fullNumber
                 vc?.push()
             
             case .failure(let failure):
                 self.sendBtn.setTitle("send request to reset the password".loclize_, for: .normal)
                 self.loader.stopAnimating()
                 print(failure.localizedDescription)
+                
+                ProgressHUD.failed("Couldn't send OTP. Make sure you entered the correct number and the number is registered.".loclize_)
             }
         }
     }

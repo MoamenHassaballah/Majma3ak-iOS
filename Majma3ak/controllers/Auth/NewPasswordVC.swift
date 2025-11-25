@@ -33,12 +33,11 @@ class NewPasswordVC: UIViewController {
         return tf
     }()
     
-    private let resetButton: UIButton = {
+    private lazy var resetButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Reset Password".loclize_, for: .normal)
         button.backgroundColor = .systemBlue
         button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8
         button.setFont(name: "FFShamelFamily-SansOneBook", size: 16)
         button.addTarget(self, action: #selector(resetTapped), for: .touchUpInside)
         return button
@@ -80,9 +79,9 @@ class NewPasswordVC: UIViewController {
             return
         }
         
-        ProgressHUD.load()
+        ProgressHUD.progress("loading..".loclize_, 0.5)
         
-        // Make your API call here
+//         Make your API call here
         WebService.shared.sendRequest(url: Request.resetPassword,
                                       params: [
                                         "phone": phone,
@@ -94,12 +93,13 @@ class NewPasswordVC: UIViewController {
                                       method: .post,
                                       isAuth: false,
                                       responseType: APIResponse<[Empty]>.self) { result in
-            ProgressHUD.dismiss()
+            
             switch result {
             case .success(_):
                 ProgressHUD.success("Password reset successfully".loclize_)
                 // Navigate to login or home
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    ProgressHUD.dismiss()
                     self.navigationController?.popToRootViewController(animated: true)
                 }
             case .failure(let error):

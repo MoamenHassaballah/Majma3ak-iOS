@@ -238,3 +238,7 @@
 
 
 "accepted" = "وەرگیراو";
+
+
+"resend_code_timer" = "%02d:%02d بۆ ناردنەوەی کۆد";
+"Couldn't send OTP. Make sure you entered the correct number and the number is registered." = "نەتوانرا OTP بنێردرێت. دڵنیا بە لەوەی ژمارەی دروست نووسیوتە و ژمارەکە تۆمار کراوە.";

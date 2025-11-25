@@ -11,6 +11,16 @@ import ProgressHUD
 
 class OTPVC  : UIViewController  {
     
+    var resendTimer: Timer?
+    var remainingSeconds: Int = 180
+    let countdownLabel: UILabel = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.font = UIFont(name: "FFShamelFamily-SansOneBook", size: 14)
+        label.textColor = .gray
+        label.isHidden = true
+        return label
+    }()
     
     
     // MARK: - UI Elements
@@ -32,12 +42,11 @@ class OTPVC  : UIViewController  {
     
     var otpTextFields: [UITextField] = []
     
-    let verifyButton: UIButton = {
+    lazy var verifyButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Verify".loclize_, for: .normal)
         button.backgroundColor = .systemBlue
         button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8
         button.setFont(name: "FFShamelFamily-SansOneBold", size: 14)
         button.addTarget(self, action: #selector(verifyTapped), for: .touchUpInside)
         return button
@@ -60,11 +69,16 @@ class OTPVC  : UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        
+        resendLabel.isHidden = true
+        countdownLabel.isHidden = false
+        startResendCountdown()
+        
         setupViews()
         // Add tap gesture
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleResendTap))
         resendLabel.addGestureRecognizer(tapGesture)
-        print("Mobile Number:=\(mobileNumber)")
+        print("Mobile Number:=\(mobileNumber ?? "")")
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -81,10 +95,14 @@ class OTPVC  : UIViewController  {
     // Selector method
     @objc func handleResendTap() {
         
+        guard resendLabel.isUserInteractionEnabled else { return }
+        
         guard let phone = mobileNumber else {
             print("Mobile number is nil")
             return
         }
+        
+        // Implement your resend logic here
         
         if(isRegister == true){
             WebService.shared.sendRequest(url: Request.resendVerificationOtp,
@@ -95,7 +113,7 @@ class OTPVC  : UIViewController  {
                                           isAuth: false,
                                           responseType: APIResponse<[Empty]>.self) { result in
                 switch result {
-                case .success(let success):
+                case .success(_):
     //                self.loader.stopAnimating()
 
                     ProgressHUD.success("OTP sent successfully".loclize_,
@@ -107,29 +125,33 @@ class OTPVC  : UIViewController  {
                     print(failure.localizedDescription)
                 }
             }
-        }
-        WebService.shared.sendRequest(url: Request.resendVerificationOtp,
-                                      params: [
-                                        "phone":phone
-                                      ],
-                                      method: .post,
-                                      isAuth: false,
-                                      responseType: APIResponse<[Empty]>.self) { result in
-            switch result {
-            case .success(let success):
-//                self.loader.stopAnimating()
+        } else {
+            WebService.shared.sendRequest(url: Request.resendVerificationOtp,
+                                          params: [
+                                            "phone":phone
+                                          ],
+                                          method: .post,
+                                          isAuth: false,
+                                          responseType: APIResponse<[Empty]>.self) { result in
+                switch result {
+                case .success(_):
+    //                self.loader.stopAnimating()
 
-                ProgressHUD.success("Password reset OTP sent successfully".loclize_,
-                                    image: UIImage(systemName: "envelope.circle.fill"))
+                    ProgressHUD.success("Password reset OTP sent successfully".loclize_,
+                                        image: UIImage(systemName: "envelope.circle.fill"))
+                    
                 
-            
-            case .failure(let failure):
-                ProgressHUD.failed("The code was not sent, please try again.".loclize_)
-                print(failure.localizedDescription)
+                case .failure(let failure):
+                    ProgressHUD.failed("The code was not sent, please try again.".loclize_)
+                    print(failure.localizedDescription)
+                }
             }
+            print("Resend tapped")
         }
-        print("Resend tapped")
-        // Implement your resend logic here
+        
+        remainingSeconds = 180
+        startResendCountdown()
+        
     }
 
 
@@ -168,8 +190,9 @@ class OTPVC  : UIViewController  {
         view.addSubview(verifyButton)
         verifyButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            verifyButton.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 30),
+            //verifyButton.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 30),
             verifyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            verifyButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             verifyButton.widthAnchor.constraint(equalToConstant: 150),
             verifyButton.heightAnchor.constraint(equalToConstant: 44)
         ])
@@ -179,6 +202,13 @@ class OTPVC  : UIViewController  {
         NSLayoutConstraint.activate([
             resendLabel.topAnchor.constraint(equalTo: verifyButton.bottomAnchor, constant: 20),
             resendLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+        
+        view.addSubview(countdownLabel)
+        countdownLabel.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            countdownLabel.topAnchor.constraint(equalTo: verifyButton.bottomAnchor, constant: 20),
+            countdownLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
     
@@ -198,18 +228,20 @@ class OTPVC  : UIViewController  {
     
     @objc func verifyTapped() {
         let code = otpTextFields.compactMap { $0.text }.joined()
-        print("Entered OTP: \(code)")
         
         guard let phone = mobileNumber else {
             print("Mobile number is nil")
             return
         }
 
+        
 
         // Show loading indicator
-        ProgressHUD.load()
+        //ProgressHUD.load()
+        ProgressHUD.progress("loading..".loclize_, 0.5)
         
         if(isRegister == true){
+            print("Registration: Entered OTP: \(code), phone: \(phone)")
             WebService.shared.sendRequest(url: Request.verifyPhone,
                                           params: [
                                             "phone": phone,
@@ -219,7 +251,7 @@ class OTPVC  : UIViewController  {
                                           isAuth: false,
                                           responseType: VerifiedOtpResponse.self) { result in
                 switch result {
-                case .success(let success):
+                case .success(_):
 //                    self.loader.stopAnimating()
 
                     ProgressHUD.success("OTP sent successfully".loclize_,
@@ -233,6 +265,9 @@ class OTPVC  : UIViewController  {
             }
         }
         else {
+            
+            print("Password Reset: Entered OTP: \(code), phone: \(phone)")
+            
             WebService.shared.sendRequest(
                 url: Request.verifyResetOtp,
                 params: [
@@ -265,6 +300,32 @@ class OTPVC  : UIViewController  {
 
    
     }
+    
+    func startResendCountdown() {
+        updateCountdownLabel()
+        countdownLabel.isHidden = false
+        resendLabel.isHidden = true
+        resendLabel.isUserInteractionEnabled = false
+        resendTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateCountdown), userInfo: nil, repeats: true)
+    }
+
+    @objc func updateCountdown() {
+        remainingSeconds -= 1
+        updateCountdownLabel()
+        if remainingSeconds <= 0 {
+            resendTimer?.invalidate()
+            resendTimer = nil
+            countdownLabel.isHidden = true
+            resendLabel.isHidden = false
+            resendLabel.isUserInteractionEnabled = true
+        }
+    }
+
+    func updateCountdownLabel() {
+        let minutes = remainingSeconds / 60
+        let seconds = remainingSeconds % 60
+        countdownLabel.text = String(format: "resend_code_timer".loclize_, minutes, seconds)
+    }
 
 }
 
@@ -272,7 +333,7 @@ class OTPVC  : UIViewController  {
 
 extension OTPVC: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        guard let currentText = textField.text else { return false }
+        guard textField.text != nil else { return false }
         
         // إذا تم الضغط على زر الحذف
         if string.isEmpty {
@@ -301,3 +362,4 @@ extension OTPVC: UITextFieldDelegate {
     }
 
 }
+
