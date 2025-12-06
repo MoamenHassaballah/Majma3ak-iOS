@@ -89,16 +89,17 @@ class AddVisitRequestVC: UIViewController {
             return
         }
         
-        
+        let visitDescription = descrptionProblemtxt.text ?? ""
         
         // ✅ إذا وصلنا هنا، فكل المدخلات سليمة
         print("📆 Date:", dateTitle)
         print("⏰ Time:", selectedTime)
         print("🙍‍♂️ Visitor Name:", visitorName)
-        print("📝 Description:", description)
+        print("📝 Description:", visitDescription)
         
         sentVisitRequest(visiterName: visitorName,
                          visiterPhone: visitorPhone,
+                         visitDescription: visitDescription,
                          visitTime:selectedTime,
                          visitDate: dateTitle)
     }
@@ -189,7 +190,7 @@ extension AddVisitRequestVC {
     }
 
     
-    func sentVisitRequest(visiterName : String , visiterPhone : String , visitTime : String , visitDate : String ) {
+    func sentVisitRequest(visiterName : String , visiterPhone : String, visitDescription: String, visitTime : String , visitDate : String ) {
         print("Visit Time: \(visitTime)")
         loaderAddMaintanceReq.isHidden = false
         loaderAddMaintanceReq.startAnimating()
@@ -203,6 +204,7 @@ extension AddVisitRequestVC {
                                       params: [
                                         "visiter_name":visiterName,
                                         "visiter_phone":visiterPhone,
+                                        "visit_description":visitDescription,
                                         "visit_time":visitTime,
                                         "visit_date":visitDate
                                       ],

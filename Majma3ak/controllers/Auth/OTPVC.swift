@@ -13,14 +13,7 @@ class OTPVC  : UIViewController  {
     
     var resendTimer: Timer?
     var remainingSeconds: Int = 180
-    let countdownLabel: UILabel = {
-        let label = UILabel()
-        label.textAlignment = .center
-        label.font = UIFont(name: "FFShamelFamily-SansOneBook", size: 14)
-        label.textColor = .gray
-        label.isHidden = true
-        return label
-    }()
+    
     
     
     // MARK: - UI Elements
@@ -63,6 +56,17 @@ class OTPVC  : UIViewController  {
 
         return label
     }()
+    
+    
+    let countdownLabel: UILabel = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.font = UIFont(name: "FFShamelFamily-SansOneBook", size: 14)
+        label.textColor = .gray
+        label.isHidden = true
+        return label
+    }()
+    
     
     // MARK: - View Lifecycle
     
